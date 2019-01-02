@@ -1,0 +1,685 @@
+/* ----- Font Faces ----- */
+
+@font-face {
+	font-family: "Buxton Sketch";
+	src: url("../fonts/BuxtonSketch.ttf") format("truetype");
+}
+@font-face {
+	font-family: "SF Compact Display";
+	src: url("../fonts/SFCompactDisplay-Regular.otf") format("opentype");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "SF Compact Display";
+	src: url("../fonts/SFCompactDisplay-Bold.otf") format("opentype");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "SF Mono";
+	src: url("../fonts/SFMono-Regular.otf") format("opentype");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "SF Mono";
+	src: url("../fonts/SFMono-Bold.otf") format("opentype");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "SF Mono";
+	src: url("../fonts/SFMono-BoldItalic.otf") format("opentype");
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: "SF Mono";
+	src: url("../fonts/SFMono-RegularItalic.otf") format("opentype");
+	font-style: italic;
+}
+
+/* ----- Global ----- */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;*/
+	vertical-align: baseline;
+}
+
+html {
+	font-family: "SF Compact Display", sans-serif;
+}
+
+body {
+	width: 100%;
+}
+
+body.index {
+	background: url("../images/background_new.png") top center fixed;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+h1 {
+	font-family: "Buxton Sketch", sans-serif;
+	color: white;
+	font-size: 48px;
+}
+
+ul.content {
+	list-style: disc inside;
+}
+
+p, ul.content li.content {
+	color: white;
+	font-size: 16px;
+}
+
+ul.content li.content {
+	line-height: 1.5em;
+}
+
+div.left {
+	float: left;
+}
+
+div.right {
+	float: right;
+}
+
+div.block {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+	display: inline-block;
+}
+
+div.translucent {
+	/*background-color: #444452;*/
+	background-color: rgba(26.7%, 26.7%, 32.2%, 0.6);
+}
+
+div.translucent2 {
+	/*background-color: rgba(25, 59, 82, 0.6);*/
+	background-color: rgba(82, 75, 44, 0.6);
+}
+
+hr {
+	color: white;
+}
+
+div.hr {
+	text-align: center;
+}
+
+div.hr img {
+	display: inline-block;
+	height: initial;
+}
+
+/* ----- nav ----- */
+
+nav {
+	height: 100px;
+	line-height: 100px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a img {
+	width: 150px;
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.hamburger {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	height: inherit;
+}
+
+.hamburger-box{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hamburger-label {
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: middle;
+	color: white;
+	font-family: "Buxton Sketch", sans-serif;
+}
+
+nav a:not(:first-child) {
+	padding: 0 2em;
+	float: right;
+}
+
+nav a.nav_other:hover {
+	background-color: rgba(93, 93, 110, 0.6);
+}
+
+nav ul {
+	list-style-type: none;
+	display: none;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	float: left;
+}
+
+nav ul li a {
+	/*display: none;*/
+	/*padding: 2em;*/
+	padding: 0 2em;
+	display: block;
+}
+
+nav ul.ul-revealed {
+	display: inline-block;
+}
+
+/*nav a:nth-child(2) {
+	float: right;
+	margin: 0 20px;
+}*/
+
+/*nav a:nth-child(2):hover {*/
+
+/*}*/
+
+
+/*div.nav_other {*/
+/*padding: 2em;*/
+/*display: inline-block;*/
+/*cursor: pointer;*/
+/*float: right;*/
+/*}*/
+
+/*.bar1, .bar2, .bar3 {*/
+/*width: 35px;*/
+/*height: 5px;*/
+/*background-color: white;*/
+/*margin: 6px 0;*/
+/*transition: 0.4s;*/
+/*}*/
+
+/*!* rotate first bar *!*/
+/*.change .bar1 {*/
+/*-webkit-transform: rotate(-45deg) translate(-9px, 6px);*/
+/*transform: rotate(-45deg) translate(-9px, 6px);*/
+/*}*/
+
+/*!* rotate second bar *!*/
+/*.change .bar2 {*/
+/*opacity: 0;*/
+/*}*/
+
+/*!* rotate third bar *!*/
+/*.change .bar3 {*/
+/*-webkit-transform: rotate(45deg) translate(-8px, -8px);*/
+/*transform: rotate(45deg) translate(-8px, -8px);*/
+/*}*/
+
+/* ----- Header ----- */
+
+header {
+	/*margin: 100px 0 200px 0;*/
+	margin: 300px 0 400px 0;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 80px;
+}
+
+header p {
+	width: 75%;
+	margin: 30px auto 0 auto;
+	font-family: "Buxton Sketch", sans-serif;
+	font-size: 40px;
+	/*font-size: 20px;*/
+}
+
+/* ----- About Me ----- */
+
+.about-me {
+	padding: 20px;
+}
+
+.about-me p {
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+.about-me a {
+	color: white;
+	text-decoration: none;
+}
+
+.about-me a:hover {
+	text-decoration: underline;
+}
+
+.about-column {
+	max-width: 75%;
+	float: left;
+	margin: 10px 0;
+}
+
+.about-portrait {
+	max-width: 22.5%;
+	min-width: 17.5%;
+	float: right;
+}
+
+/* ----- Academic Background ----- */
+
+.acad_bkg {
+	color: white;
+	margin: 10px auto 25px auto;
+	width: 80%;
+}
+
+.acad_bkg h1 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.acad_bkg h2 {
+	font-size: 28px;
+	margin-bottom: .5em;
+}
+
+.acad_bkg h3 {
+	font-family: "Buxton Sketch", sans-serif;
+	font-size: 24px;
+	padding-bottom: .5em;
+}
+
+.acad_bkg div.col1, div.double-deg div.col1 {
+	width: 75%;
+}
+
+.acad_bkg div.col2, div.double-deg div.col2 {
+	width: 25%;
+	float: right;
+}
+
+.acad_bkg img {
+	width: 250px;
+	margin: auto;
+}
+
+div.acad_inside {
+	padding: 1.0em 0;
+	text-align: center;
+}
+
+/* ----- Skills ----- */
+
+.skills {
+	text-align: center;
+}
+
+.skills_col1 {
+	width: 80%;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skills_col1 h2, .skills_col2 h2 {
+	font-family: "Buxton Sketch", sans-serif;
+	font-size: 32px;
+	line-height: 3em;
+}
+
+.skills_col1 i {
+	font-size: 90px;
+	line-height: 100px;
+	padding: 10px 20px 60px 20px;
+	display: inline-block;
+}
+
+.skills_col1 img, .skills_col1 svg {
+	height: 90px;
+	padding: 10px 20px 60px 20px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+/* ----- CV and Resume area ----- */
+
+div.cv_area {
+	text-align: center;
+	color: white;
+}
+
+div.cv_area h2 {
+	font-family: "Buxton Sketch", sans-serif;
+	font-size: 28px;
+	margin-bottom: 1em;
+}
+
+div.cv_area p {
+	margin-bottom: 1em;
+}
+
+div.cv_area a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div.cv_area a:hover {
+	text-decoration: underline;
+}
+
+div.cv_area button {
+	background-color: white;
+	display: inline-block;
+	padding: 15px 32px;
+	border: none;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	margin: .5em .5em 2em .5em;
+	border-radius: 8px;
+}
+
+div.cv_area button:hover {
+	background-color: rgba(256, 256, 256, 0.1);
+	color: white;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+/* ----- Footer ----- */
+
+footer {
+	text-align: center;
+	margin: 60px 0;
+	padding-bottom: 30px;
+}
+
+footer .fa-lg {
+	color: white;
+	line-height: 40px;
+}
+
+footer .fa-lg:hover {
+	-webkit-filter: brightness(70%);
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+footer i {
+	margin: 10px 10px;
+}
+
+/* ----- Responsive ----- */
+@media only screen and (min-width: 1024px) {
+	header {
+		max-height: 100vh;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	nav ul li {
+		width: 200px;
+	}
+
+	nav ul li a {
+		width: 160px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1142px) {
+	header {
+		margin-top: 200px;
+	}
+
+	.skills_col1, div.acad_bkg {
+		width: 100%;
+	}
+
+	div.hr img {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	div.translucent {
+
+	}
+
+	.about-column {
+		min-width: 0;
+		max-width: 100%;
+	}
+
+	.about-portrait {
+		max-width: 40%;
+		float: unset;
+		display: block;
+		margin: auto;
+		padding-bottom: 20px;
+	}
+
+	header {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	header h1 {
+		font-size: 60px;
+	}
+
+	header p {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.about-portrait {
+		max-width: 60%;
+	}
+
+	.acad_bkg div.col1, .acad_bkg div.double-deg div.col1 {
+		width: 100%;
+	}
+
+	.acad_bkg div.col2, .acad_bkg div.double-deg div.col2 {
+		width: 100%;
+		float: none;
+		padding-bottom: 1em;
+		text-align: center;
+	}
+
+	.acad_bkg img {
+		width: 250px;
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.about-portrait {
+		max-width: 75%;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	nav ul li {
+		width: 100%;
+		float: none;
+		display: initial;
+	}
+
+	nav ul li a {
+		text-align: center;
+
+	}
+
+	nav a.nav_other {
+		padding: 0 1em;
+	}
+
+	.acad_bkg div.col1, .acad_bkg div.double-deg div.col1 {
+		width: 90%;
+		margin: auto;
+	}
+
+	.skills_col1 i {
+		font-size: 90px;
+		line-height: 100px;
+		padding: 10px 20px 60px 20px;
+		display: inline-block;
+	}
+
+	.skills_col1 img, .skills_col1 svg {
+		height: 90px;
+		padding: 10px 20px 60px 20px;
+		display: inline-block;
+		vertical-align: bottom;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	div.wrapper {
+		width: 100%;
+	}
+
+	h1, header h1 {
+		font-size: 30px;
+	}
+
+	nav {
+		width: 90%;
+		margin: auto;
+	}
+
+	nav a.nav_other {
+		padding: 0 .5em;
+		line-height: 50px;
+	}
+
+	header {
+		margin: 200px 0 100px 0;
+	}
+}
+
+@media only screen and (min-width: 2560px) {
+	/* global */
+	h1, header h1 {
+		font-size: 120px;
+	}
+
+	p, ul.content li.content {
+		font-size: 32px;
+	}
+
+	/* header */
+
+	header p {
+		font-size: 60px;
+	}
+
+	/* nav */
+
+	nav {
+		height: 150px;
+		line-height: 150px;
+	}
+
+	nav a img {
+		width: 300px;
+	}
+
+	nav ul li a {
+		font-size: 30px;
+	}
+
+	.hamburger-label {
+		font-size: 30px;
+	}
+
+	/* acad-bkg, skills & cv_area */
+
+	.acad_bkg {
+		width: 90%;
+	}
+
+	.acad_bkg img {
+		width: 500px;
+	}
+
+	.acad_bkg h2, div.cv_area h2 {
+		font-size: 56px;
+	}
+
+	.acad_bkg h3 {
+		font-size: 48px;
+	}
+
+	.skills_col1 h2, .skills_col2 h2 {
+		font-size: 64px;
+	}
+
+	.skills_col1 i {
+		font-size: 180px;
+		line-height: 200px;
+	}
+
+	.skills_col1 img, .skills_col1 svg {
+		height: 180px;
+	}
+
+	div.cv_area button {
+		font-size: 40px;
+		padding: 30px 64px;
+	}
+
+	/* footer */
+	footer p {
+		padding-bottom: 1em;
+	}
+
+	footer .fa-lg {
+		font-size: 3em;
+	}
+}
+

@@ -1,0 +1,497 @@
+/* ----- Font Faces ----- */
+
+@font-face {
+	font-family: "Buxton Sketch";
+	src: url("../fonts/BuxtonSketch.ttf") format("truetype");
+}
+@font-face {
+	font-family: "SF Compact Display";
+	src: url("../fonts/SFCompactDisplay-Regular.otf") format("opentype");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "SF Compact Display";
+	src: url("../fonts/SFCompactDisplay-Bold.otf") format("opentype");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "SF Mono";
+	src: url("../fonts/SFMono-Regular.otf") format("opentype");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "SF Mono";
+	src: url("../fonts/SFMono-Bold.otf") format("opentype");
+	font-weight: bold;
+}
+@font-face {
+	font-family: "SF Mono";
+	src: url("../fonts/SFMono-BoldItalic.otf") format("opentype");
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: "SF Mono";
+	src: url("../fonts/SFMono-RegularItalic.otf") format("opentype");
+	font-style: italic;
+}
+
+/* ----- Global ----- */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;*/
+	vertical-align: baseline;
+}
+
+html {
+	font-family: "SF Compact Display", sans-serif;
+}
+
+body {
+	width: 100%;
+}
+
+body.index {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bkg-csi.jpg") top center fixed;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+h1 {
+	font-family: "Buxton Sketch", sans-serif;
+	color: white;
+	font-size: 48px;
+}
+
+ul.content {
+	list-style: disc inside;
+}
+
+p, ul.content li.content {
+	color: white;
+	font-size: 16px;
+}
+
+ul.content li.content {
+	line-height: 1.5em;
+}
+
+div.left {
+	float: left;
+}
+
+div.right {
+	float: right;
+}
+
+div.block {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+	display: inline-block;
+}
+
+div.block a {
+	text-decoration: none;
+	color: white;
+}
+
+div.translucent {
+	/*background-color: #444452;*/
+	background-color: rgba(26.7%, 26.7%, 32.2%, 0.6);
+}
+
+div.translucent2 {
+	/*background-color: rgba(25, 59, 82, 0.6);*/
+	background-color: rgba(82, 75, 44, 0.6);
+}
+
+hr {
+	color: white;
+}
+
+div.hr {
+	text-align: center;
+}
+
+div.hr img {
+	display: inline-block;
+	height: initial;
+}
+
+/* ----- nav ----- */
+
+nav {
+	height: 100px;
+	line-height: 100px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a img {
+	width: 150px;
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.hamburger {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+	height: inherit;
+}
+
+.hamburger-box{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hamburger-label {
+	display: inline-block;
+	margin-left: 5px;
+	vertical-align: middle;
+	color: white;
+	font-family: "Buxton Sketch", sans-serif;
+}
+
+nav a:not(:first-child) {
+	padding: 0 2em;
+	float: right;
+}
+
+nav a.nav_other:hover {
+	background-color: rgba(93, 93, 110, 0.6);
+}
+
+nav ul {
+	list-style-type: none;
+	display: none;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	float: left;
+}
+
+nav ul li a {
+	/*display: none;*/
+	/*padding: 2em;*/
+	padding: 0 2em;
+	display: block;
+}
+
+nav ul.ul-revealed {
+	display: inline-block;
+}
+
+/* ----- Head ----- */
+
+h2 {
+	color: white;
+}
+
+.head button {
+	background-color: white;
+	display: inline-block;
+	padding: 15px 32px;
+	border: none;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	margin: .5em .5em 2em .5em;
+	border-radius: 8px;
+}
+
+.head button:hover {
+	background-color: rgba(256, 256, 256, 0.1);
+	color: white;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+/* ----- Thumbnails ----- */
+
+div.thumbnail {
+	width: 45%;
+	padding: 20px;
+	float: left;
+	-webkit-filter: brightness(70%);
+}
+
+div.thumbnail:hover {
+	-webkit-filter: brightness(100%);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	color: white;
+}
+
+div.thumbnail img {
+	width: 100%;
+}
+
+div.thumbnail h3 {
+	text-align: center;
+	font-family: "Buxton Sketch", sans-serif;
+	font-size: 30px;
+	visibility: hidden;
+}
+
+div.thumbnail:hover h3 {
+	visibility: visible;
+}
+
+/* ----- Community Service Account Content ----- */
+
+div.title-image {
+	text-align: center;
+}
+
+div.title-image img {
+	width: 50%;
+	display: inline-block;
+}
+
+div.quote {
+	width: 60%;
+	margin: auto;
+}
+
+div.quote p {
+	font-size: 24px;
+	font-family: "Buxton Sketch", sans-serif;
+}
+
+div.reflections {
+	width: 80%;
+	margin: auto;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+	padding: 20px;
+}
+
+div.reflections p {
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+/* ----- Reflection Journal ----- */
+
+div.rjournal {
+	text-align: center;
+	color: white;
+}
+
+div.rjournal h2 {
+	font-family: "Buxton Sketch", sans-serif;
+	font-size: 28px;
+	margin-bottom: 1em;
+}
+
+div.rjournal p {
+	margin-bottom: 1em;
+}
+
+div.rjournal a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div.rjournal button {
+	background-color: white;
+	display: inline-block;
+	padding: 15px 32px;
+	border: none;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	margin: .5em .5em 2em .5em;
+	border-radius: 8px;
+}
+
+div.rjournal button:hover {
+	background-color: rgba(256, 256, 256, 0.1);
+	color: white;
+}
+
+/* ----- Footer ----- */
+
+footer {
+	text-align: center;
+	margin: 60px 0;
+	padding-bottom: 30px;
+}
+
+footer .fa-lg {
+	color: white;
+	line-height: 40px;
+}
+
+footer .fa-lg:hover {
+	-webkit-filter: brightness(70%);
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+footer i {
+	margin: 10px 10px;
+}
+
+/* ----- Responsive ----- */
+@media only screen and (min-width: 1024px) {
+	header {
+		max-height: 100vh;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	nav ul li {
+		width: 200px;
+	}
+
+	nav ul li a {
+		width: 160px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1142px) {
+	div.hr img {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 36px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	nav ul li {
+		width: 100%;
+		float: none;
+		display: initial;
+	}
+
+	nav ul li a {
+		text-align: center;
+
+	}
+
+	nav a.nav_other {
+		padding: 0 1em;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	div.wrapper {
+		width: 100%;
+	}
+
+	h1, header h1 {
+		font-size: 30px;
+	}
+
+	nav {
+		width: 90%;
+		margin: auto;
+	}
+
+	nav a.nav_other {
+		padding: 0 .5em;
+		line-height: 50px;
+	}
+}
+
+@media only screen and (min-width: 2560px) {
+	/* global */
+	h1 {
+		font-size: 120px;
+	}
+
+	p, ul.content li.content {
+		font-size: 32px;
+	}
+
+	/* nav */
+
+	nav {
+		height: 150px;
+		line-height: 150px;
+	}
+
+	nav a img {
+		width: 300px;
+	}
+
+	nav ul li a {
+		font-size: 30px;
+	}
+
+	.hamburger-label {
+		font-size: 30px;
+	}
+
+	/* content */
+
+	div.quote p {
+		font-size: 36px;
+	}
+
+	div.rjournal h2 {
+		font-size: 56px;
+	}
+
+	div.rjournal button {
+		font-size: 40px;
+		padding: 30px 64px;
+	}
+
+	/* footer */
+	footer p {
+		padding-bottom: 1em;
+	}
+
+	footer .fa-lg {
+		font-size: 3em;
+	}
+}
+
