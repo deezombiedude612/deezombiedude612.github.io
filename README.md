@@ -1,3 +1,3 @@
-# Personal Website 2018
+# GitHub IO
 
-My first take on creating my own website from scratch.
+This repository only contains past personal portfolio websites I have created.
