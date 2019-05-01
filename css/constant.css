@@ -1,0 +1,65 @@
+/* CSS Document: Universal Styling throughout Custom Pages */
+
+@font-face {
+    font-family: 'Leafy';
+    src: url('../fonts/leafy/leafy.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'SF Compact Display';
+	src: url('../fonts/sf_compact_display/SFCompactDisplay-Regular.otf') format('opentype');
+	font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    margin: auto;
+    font-family: "SF Compact Display", Arial, sans-serif;
+}
+
+h1 {
+    font-family: "Leafy", "SF Compact Display", Arial, sans-serif;
+    font-size: 72px;
+}
+
+h2 {
+    font-family: "Leafy", "SF Compact Display", Arial, sans-serif;
+    font-size: 42px;
+}
+
+h3 {
+    font-family: "Leafy", "SF Compact Display", Arial, sans-serif;
+    font-size: 36px;
+}
+
+h4 {
+    font-family: "Leafy", "SF Compact Display", Arial, sans-serif;
+    font-size: 30px;
+}
+
+#nav-logo {
+    height: 50px;
+}
+
+.div-panel {
+	display: inline;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.div-panel-top {
+    display: inline;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.badge {
+	background-color: rgba(60, 60, 60, .75);
+	color: white;
+}

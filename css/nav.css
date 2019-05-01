@@ -1,0 +1,56 @@
+/* CSS Document: navbar */
+
+/* nav */
+/* nav { */
+	/*background: rgba(0, 0, 0, 0.8);*/
+	/* overflow: auto;
+	white-space: nowrap;
+}
+
+nav a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	font-family: "SF Compact Display", sans-serif;
+}
+
+nav a.selected {
+	text-decoration: underline;
+}
+
+nav a:hover {
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+} */
+
+nav a {
+	color: white;
+	text-decoration: none;
+	/* background: white; */
+}
+
+nav a:hover {
+	/* color: rgb(169, 169, 169); */
+	text-decoration: underline;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.navbar {
+	background: rgba(255,255,255,0.5);
+}
+
+/* 
+.navbar.transparent.navbar-inverse .navbar-inner {
+	background: rgba(0,0,0,0.4);
+ } */
