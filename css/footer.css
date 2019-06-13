@@ -1,5 +1,11 @@
 /* CSS Document: Footer */
 
+@font-face {
+	font-family: 'SF Compact Display';
+	src: url('../fonts/sf_compact_display/SFCompactDisplay-Regular.otf') format('opentype');
+	font-weight: normal;
+}
+
 /* footer */
 footer {
 	text-align: center;
@@ -8,6 +14,7 @@ footer {
 	background-color: rgba(244, 244, 244, 0.6);
 	color: black;
 	font-size: 16px;
+	font-family: "SF Compact Display", Arial, sans-serif;
 }
 
 footer p {
@@ -15,8 +22,8 @@ footer p {
 }
 
 footer .fa-lg {
-	color: black;
 	line-height: 10px;
+	color: rgba(140, 140, 140, 1);
 }
 
 footer .fa-lg:hover {
@@ -26,6 +33,7 @@ footer .fa-lg:hover {
 	-o-transition: all .2s ease;
 	-ms-transition: all .2s ease;
 	transition: all .2s ease;
+	color: rgb(255, 102, 0);
 }
 
 footer i {

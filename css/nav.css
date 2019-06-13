@@ -34,6 +34,7 @@ nav a {
 	color: white;
 	text-decoration: none;
 	/* background: white; */
+	text-align: center;
 }
 
 nav a:hover {
@@ -48,6 +49,12 @@ nav a:hover {
 
 .navbar {
 	background: rgba(255,255,255,0.5);
+}
+
+@media only scree and (max-width: 991px) {
+	a.dropdown-item {
+		text-align: center;
+	}
 }
 
 /* 

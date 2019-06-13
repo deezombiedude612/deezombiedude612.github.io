@@ -1,15 +1,45 @@
 /* CSS Document: Universal Styling throughout Custom Pages */
 
 @font-face {
+    font-family: 'HanziPen SC';
+    src: url('../fonts/hanzipen-sc/hanzipen-sc-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Just Another Hand';
+    src: url('../fonts/just_another_hand/JustAnotherHand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KaiTi';
+    src: url('../fonts/kaiti-sc/KaiTi.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Leafy';
     src: url('../fonts/leafy/leafy.otf') format('opentype');
     font-weight: normal;
 }
 
 @font-face {
+    font-family: 'PingFang SC';
+    src: url('../fonts/pingfang_sc/PingFang\ SC.ttc') format('truetype');
+}
+
+@font-face {
 	font-family: 'SF Compact Display';
 	src: url('../fonts/sf_compact_display/SFCompactDisplay-Regular.otf') format('opentype');
 	font-weight: normal;
+}
+
+@font-face {
+    font-family: 'SimSun';
+    src: url('../fonts/simsun/SimSun.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "STFangsong";
+    src: url('../fonts/stfangsong/chinese.stfangso.ttf') format('truetype');
 }
 
 * {
@@ -24,7 +54,7 @@ body {
 }
 
 h1 {
-    font-family: "Leafy", "SF Compact Display", Arial, sans-serif;
+    font-family: "Leafy", "Just Another Hand", "SF Compact Display", Arial, sans-serif;
     font-size: 72px;
 }
 
@@ -41,6 +71,20 @@ h3 {
 h4 {
     font-family: "Leafy", "SF Compact Display", Arial, sans-serif;
     font-size: 30px;
+}
+
+.fa-sm, .fa-md {
+	color: rgba(170, 170, 170, 1);
+}
+
+.fa-sm:hover, .fa-md:hover {
+    color: rgba(80, 80, 80, 1);
+    -webkit-filter: brightness(70%);
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
 }
 
 #nav-logo {
@@ -62,4 +106,14 @@ h4 {
 .badge {
 	background-color: rgba(60, 60, 60, .75);
 	color: white;
+}
+
+.chinese-text {
+    font-family: "HanziPen SC", "KaiTi", "STFangsong", "PingFang SC", "SimSun", sans-serif;
+    /* font-family: "HanziPen SC", "KaiTi", sans-serif; */
+    /* font-family: "HanziPen SC", "sans-serif"; */
+}
+
+h2.chinese-text, h2 .chinese-text {
+    font-size: 36px;
 }
