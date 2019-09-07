@@ -1,41 +1,75 @@
-/* CSS Document: Footer */
-
 @font-face {
-	font-family: 'SF Compact Display';
-	src: url('../fonts/sf_compact_display/SFCompactDisplay-Regular.otf') format('opentype');
-	font-weight: normal;
+  font-family: "BrianneTod";
+  src: url("../fonts/briannetod/BrianneTod.ttf") format("truetype");
+  font-weight: normal;
 }
-
+@font-face {
+  font-family: "HanziPen SC";
+  src: url("../fonts/hanzipen-sc/hanzipen-sc-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Just Another Hand";
+  src: url("../fonts/just_another_hand/JustAnotherHand-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "KaiTi";
+  src: url("../fonts/kaiti-sc/KaiTi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Leafy";
+  src: url("../fonts/leafy/leafy.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PingFang SC";
+  src: url("../fonts/pingfang_sc/PingFang SC.ttc") format("truetype");
+}
+@font-face {
+  font-family: "SF Compact Display";
+  src: url("../fonts/sf_compact_display/SFCompactDisplay-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SimSun";
+  src: url("../fonts/simsun/SimSun.ttf") format("truetype");
+}
+@font-face {
+  font-family: "STFangsong";
+  src: url("../fonts/stfangsong/chinese.stfangso.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Whatever It Takes";
+  src: url("../fonts/whatever_it_takes/whatever_it_takes.ttf") format("opentype");
+  font-weight: normal;
+}
 /* footer */
 footer {
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	background-color: rgba(244, 244, 244, 0.6);
-	color: black;
-	font-size: 16px;
-	font-family: "SF Compact Display", Arial, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 16px;
+  font-family: "SF Compact Display", Arial, sans-serif;
 }
-
 footer p {
-	font-size: 16px;
+  font-size: 16px;
 }
-
 footer .fa-lg {
-	line-height: 10px;
-	color: rgba(140, 140, 140, 1);
+  color: white;
+  line-height: 10px;
 }
-
 footer .fa-lg:hover {
-	-webkit-filter: brightness(70%);
-	-webkit-transition: all .2s ease;
-	-moz-transition: all .2s ease;
-	-o-transition: all .2s ease;
-	-ms-transition: all .2s ease;
-	transition: all .2s ease;
-	color: rgb(255, 102, 0);
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  color: #ff9800;
+}
+footer i {
+  margin: 10px 10px;
 }
 
-footer i {
-	margin: 10px 10px;
-}
+/*# sourceMappingURL=footer.css.map */

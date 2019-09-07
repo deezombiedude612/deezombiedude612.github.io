@@ -1,1 +1,5 @@
+# Mac Files
 .DS_Store
+
+# Makefile
+Makefile

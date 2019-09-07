@@ -1,39 +1,43 @@
 <!doctype html>
 <html>
+
     <head>
         <meta charset="UTF-8">
         <title>Henry Heng | Github IO</title>
 
         <!-- Shortcut Icon -->
-		<link rel="shortcut icon" href="../images/hhicon.png">
+        <link rel="shortcut icon" href="images/hhicon.png">
 
         <!-- Bootstrap CSS -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Font Awesome Icons CSS -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!-- Font Awesome 5 Icons CSS -->
+        <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
 
         <!-- External CSS -->
-        <link href="../css/constant.css" rel="stylesheet">
-        <link href="../css/footer.css" rel="stylesheet">
-        <link href="../css/nav.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+        <link href="css/nav.css" rel="stylesheet">
     </head>
 
     <body>
-        <!-- <nav class="navbar navbar-expand-lg navbar-light transparent navbar-inverse navbar-inner fixed-top"> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navi">
             <div class="container-fluid">
                 <a class="navbar-brand" href=".">
-                    <img id="nav-logo" src="../images/hhicon.png" alt="nav-logo">
+                    <img id="nav-logo" src="images/hhicon.png" alt="nav-logo">
                 </a>
                 <!-- /a.navbar-brand -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- /button.navbar-toggler -->
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="https://henryheng612.com" target="_blank">Main Website</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://henryheng612.com" target="_blank">Main Website</a>
+                        </li>
+                        <!-- /li.nav-item -->
                     </ul>
                     <!-- /ul.navbar-nav ml-auto -->
                 </div>
@@ -44,35 +48,56 @@
         <!-- /nav.navbar navbar-expand-lg navbar-light bg-light fixed-top -->
 
         <div class="container-fluid">
-			<div class="col-xl-12 h-100 d-inline-block div-panel-top" id="">
-				<h1>GITHUB IO</h1><br>
-				<h2></h2>
-				<p style="text-align: center;">Nothing to see here yet. I'll think of something.. I hope.</p>
-			</div>
-			<!-- /div#sec-research -->
-			<hr>
+            <div class="d-inline-block" style="width: 100%;">
+                <div class="col-xl-10 offset-xl-1 first-section" id="">
+                    <h1>GITHUB IO</h1><br>
+                    <p style="text-align: center;">
+                        Nothing to see here yet. I'll think of something.. I hope.
+                    </p>
+                    <hr>
+                    <h2>ITS60303 User Interface Programming and Graphics</h2>
+                    <button class="btn btn-outline-light btn-block"
+                        href="https://deezombiedude612.github.io/its60303/ITS60303_Asgn1_HENGHIANWEE_0321343/">
+                        Assignment 1: Junebank
+                    </button>
+                    </button>
+                </div>
+                <!-- /div.col-xl-10 first-section -->
+            </div>
+            <!-- /div.d-inline-block -->
+            <hr>
         </div>
         <!-- /div.container-fluid -->
 
         <footer>
-			<p>@<span id="year"></span> Henry Heng</p>
-			<a href="https://twitter.com/HenryHHW" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>&nbsp;
-			<a href="https://www.instagram.com/deezombiedude/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>&nbsp;
-			<a href="https://www.facebook.com/deezombiedude612" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a>&nbsp;
-			<a href="https://www.linkedin.com/in/henryheng612/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a>&nbsp;
-			<a href="https://www.github.com/deezombiedude612" target="_blank"><i class="fab fa-github fa-lg"></i></a>&nbsp;
-			<a href="https://www.youtube.com/user/deezombiedude612/" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
-		</footer>
-		<!-- /footer -->
+            <p>@<span id="year"></span> Henry Heng</p>
+            <a href="https://twitter.com/HenryHHW" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>&nbsp;
+            <a href="https://www.instagram.com/deezombiedude/" target="_blank"><i
+                    class="fab fa-instagram fa-lg"></i></a>&nbsp;
+            <a href="https://www.facebook.com/deezombiedude612" target="_blank"><i
+                    class="fab fa-facebook-f fa-lg"></i></a>&nbsp;
+            <a href="https://www.linkedin.com/in/henryheng612/" target="_blank"><i
+                    class="fab fa-linkedin-in fa-lg"></i></a>&nbsp;
+            <a href="https://www.github.com/deezombiedude612" target="_blank"><i
+                    class="fab fa-github fa-lg"></i></a>&nbsp;
+            <a href="https://www.youtube.com/user/deezombiedude612/" target="_blank"><i
+                    class="fab fa-youtube fa-lg"></i></a>
+        </footer>
+        <!-- /footer -->
 
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <!-- jQuery (must be put first before Bootstrap) -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <!-- <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script> -->
 
         <!-- Bootstrap JS -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 
         <!-- External JS -->
         <script src="js/constant.js"></script>
     </body>
+
 </html>

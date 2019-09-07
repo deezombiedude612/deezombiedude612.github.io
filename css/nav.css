@@ -1,63 +1,114 @@
-/* CSS Document: navbar */
-
-/* nav */
-/* nav { */
-	/*background: rgba(0, 0, 0, 0.8);*/
-	/* overflow: auto;
-	white-space: nowrap;
+@font-face {
+  font-family: "BrianneTod";
+  src: url("../fonts/briannetod/BrianneTod.ttf") format("truetype");
+  font-weight: normal;
 }
-
+@font-face {
+  font-family: "HanziPen SC";
+  src: url("../fonts/hanzipen-sc/hanzipen-sc-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Just Another Hand";
+  src: url("../fonts/just_another_hand/JustAnotherHand-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "KaiTi";
+  src: url("../fonts/kaiti-sc/KaiTi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Leafy";
+  src: url("../fonts/leafy/leafy.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PingFang SC";
+  src: url("../fonts/pingfang_sc/PingFang SC.ttc") format("truetype");
+}
+@font-face {
+  font-family: "SF Compact Display";
+  src: url("../fonts/sf_compact_display/SFCompactDisplay-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SimSun";
+  src: url("../fonts/simsun/SimSun.ttf") format("truetype");
+}
+@font-face {
+  font-family: "STFangsong";
+  src: url("../fonts/stfangsong/chinese.stfangso.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Whatever It Takes";
+  src: url("../fonts/whatever_it_takes/whatever_it_takes.ttf") format("opentype");
+  font-weight: normal;
+}
 nav a {
-	display: inline-block;
-	color: black;
-	text-align: center;
-	padding: 14px;
-	text-decoration: none;
-	font-family: "SF Compact Display", sans-serif;
-}
-
-nav a.selected {
-	text-decoration: underline;
+  color: white;
+  text-decoration: none;
+  /* background: white; */
+  text-align: center;
 }
 
 nav a:hover {
-	background: rgba(0, 0, 0, 0.4);
-	color: white;
-	-webkit-transition: all .2s ease;
-	-moz-transition: all .2s ease;
-	-o-transition: all .2s ease;
-	-ms-transition: all .2s ease;
-	transition: all .2s ease;
-} */
-
-nav a {
-	color: white;
-	text-decoration: none;
-	/* background: white; */
-	text-align: center;
+  /* color: rgb(169, 169, 169); */
+  text-decoration: underline;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-nav a:hover {
-	/* color: rgb(169, 169, 169); */
-	text-decoration: underline;
-	-webkit-transition: all .2s ease;
-	-moz-transition: all .2s ease;
-	-o-transition: all .2s ease;
-	-ms-transition: all .2s ease;
-	transition: all .2s ease;
+.navbar.bg-custom {
+  background-image: url("../images/black_camo.jpeg");
 }
 
 .navbar {
-	background: rgba(255,255,255,0.5);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-@media only scree and (max-width: 991px) {
-	a.dropdown-item {
-		text-align: center;
-	}
+.dropdown:hover > .dropdown-menu {
+  display: block;
 }
 
-/* 
-.navbar.transparent.navbar-inverse .navbar-inner {
-	background: rgba(0,0,0,0.4);
- } */
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.dropdown-menu > .dropdown-item:active, .dropdown-menu > .dropdown-item.active {
+  background-color: #ff9800;
+}
+
+.dropdown-menu > .dropdown-item:not(.active), .dropdown-menu > .dropdown-item:not(.active) {
+  background-color: transparent;
+}
+
+.dropdown-menu > .dropdown-item:not(.active):hover, .dropdown-menu > .dropdown-item:not(.active):hover {
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+a.navbar-brand, .nav-link {
+  background: none;
+}
+
+.dropdown-menu a {
+  color: black;
+  /* background: transparent; */
+}
+
+@media only screen and (max-width: 991px) {
+  a.dropdown-item {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar {
+    background-color: #343a40 !important;
+  }
+}
+
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,34 @@
+@import "_variables.scss";
+
+$brightness1: brightness(70%);
+$transition1: all .2s ease;
+
+/* footer */
+footer {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	color: $textColor;
+	font-size: $footerTextSize;
+	font-family: $defaultFont;
+
+	p {
+		font-size: $footerTextSize;
+	}
+	
+	.fa-lg {
+		color: $textColor;
+		line-height: 10px;
+	}
+
+	.fa-lg:hover {
+		filter: $brightness1;
+		-webkit-filter: $brightness1;
+		@include transition($transition1);
+		color: $orange;
+	}
+	
+	i {
+		margin: 10px 10px;
+	}
+}

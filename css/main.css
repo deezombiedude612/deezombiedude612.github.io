@@ -1,0 +1,259 @@
+@font-face {
+  font-family: "BrianneTod";
+  src: url("../fonts/briannetod/BrianneTod.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "HanziPen SC";
+  src: url("../fonts/hanzipen-sc/hanzipen-sc-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Just Another Hand";
+  src: url("../fonts/just_another_hand/JustAnotherHand-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "KaiTi";
+  src: url("../fonts/kaiti-sc/KaiTi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Leafy";
+  src: url("../fonts/leafy/leafy.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PingFang SC";
+  src: url("../fonts/pingfang_sc/PingFang SC.ttc") format("truetype");
+}
+@font-face {
+  font-family: "SF Compact Display";
+  src: url("../fonts/sf_compact_display/SFCompactDisplay-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SimSun";
+  src: url("../fonts/simsun/SimSun.ttf") format("truetype");
+}
+@font-face {
+  font-family: "STFangsong";
+  src: url("../fonts/stfangsong/chinese.stfangso.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Whatever It Takes";
+  src: url("../fonts/whatever_it_takes/whatever_it_takes.ttf") format("opentype");
+  font-weight: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: auto;
+  width: 100vw;
+  margin: auto;
+  font-family: "SF Compact Display", Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+h1 {
+  font-family: "Whatever It Takes", "Just Another Hand", "SF Compact Display", Arial, sans-serif;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: "Whatever It Takes", "SF Compact Display", Arial, sans-serif;
+  font-size: 42px;
+}
+
+h3 {
+  font-family: "Whatever It Takes", "SF Compact Display", Arial, sans-serif;
+  font-size: 36px;
+}
+
+h4 {
+  font-family: "Whatever It Takes", "SF Compact Display", Arial, sans-serif;
+  font-size: 30px;
+}
+
+hr {
+  background-color: white;
+}
+
+pre {
+  color: white;
+}
+
+.fas, .fab {
+  color: #aaaaaa;
+}
+
+.fas:hover, .fab:hover {
+  color: #ff9800;
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#nav-logo {
+  height: 50px;
+}
+
+.section, .first-section-0, .first-section {
+  margin: 0 auto;
+}
+
+.first-section-0, .first-section {
+  margin-top: 100px;
+}
+
+.first-section {
+  min-height: 100vh;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.chinese-text {
+  font-family: "HanziPen SC", "KaiTi", "STFangsong", "PingFang SC", "SimSun", sans-serif;
+  /* font-family: "HanziPen SC", "KaiTi", sans-serif; */
+  /* font-family: "HanziPen SC", "sans-serif"; */
+}
+
+h2.chinese-text, h2 .chinese-text {
+  font-size: 36px;
+}
+
+.mini-divide {
+  padding: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+.mini-divide hr {
+  border-width: 0.5px;
+}
+
+.section-subtitle {
+  padding-bottom: 1em;
+  text-align: center;
+}
+.section-subtitle i {
+  margin-bottom: 10px;
+}
+
+.mb-0 {
+  font-family: "SF Compact Display", Arial, sans-serif;
+  text-align: center;
+}
+.mb-0 > button.btn.btn-link {
+  color: white;
+}
+
+.badge {
+  background-color: rgba(60, 60, 60, 0.95);
+  color: white;
+}
+
+/* LIGHT MODE TOGGLE SWITCH */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(150, 150, 150, 0.75);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #ff9800;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ff9800;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+div#dt {
+  display: flex;
+  text-align: right;
+  float: right;
+  width: 125px;
+}
+div#dt .fa-sun {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+div#dt .fa-moon {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+div#dt .fas, div#dt .fas:hover, div#dt .fab, div#dt .fab:hover {
+  color: white;
+}
+
+/* LIGHT MODE ONLY */
+body.light, body.light a, body.light pre, body.light .card {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (min-width: 1200px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
