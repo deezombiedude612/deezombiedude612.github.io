@@ -1,26 +1,19 @@
 {
-  "name": "deezombiedude612.github.io",
-  "version": "1.0.0",
-  "description": "This repository is experimental. YOU HAVE BEEN WARNED.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deezombiedude612/deezombiedude612.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/deezombiedude612/deezombiedude612.github.io/issues"
-  },
-  "homepage": "https://github.com/deezombiedude612/deezombiedude612.github.io#readme",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.10.2",
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
-  }
+	"name": "github_io",
+	"version": "1.0.0",
+	"description": "Github IO 2020",
+	"main": "index.js",
+	"scripts": {
+		"scss": "sass scss/:assets/css/",
+		"scss-watch": "sass --watch scss/:assets/css/"
+	},
+	"author": "deezombiedude612",
+	"license": "ISC",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.12.0",
+		"bootstrap": "^4.4.1",
+		"jquery": "^3.4.1",
+		"popper.js": "^1.16.0"
+	},
+	"devDependencies": {}
 }

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="henryheng612">
+		<meta name="keywords"
+			content="henry heng hian wee, henry heng, heng hian wee, heng, hian wee, henryheng612, henghenry612">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>dzd612 GitHub IO | Pokétypes</title>
+
+		<!-- Shortcut Icon -->
+		<link href="../assets/images/hhicon.png" rel="shortcut icon">
+
+		<!-- Bootstrap CSS -->
+		<link href="../assets/bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Font Awesome 5 Icons CSS -->
+		<link href="../assets/fontawesome-free/css/all.css" rel="stylesheet">
+
+		<!-- External CSS -->
+		<link href="../assets/css/poketypes.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navi">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../">
+					<img id="nav-logo" src="../assets/images/hhicon.png" alt="nav-logo">
+				</a>
+				<!-- /a.navbar-brand -->
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+					data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- /button.navbar-toggler -->
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="../https://henryheng612.com" target="_blank">Main
+								Website</a>
+							<div class="underline"></div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="https://blog.henryheng612.com"
+								target="_blank">Incoherent Thoughts</a>
+							<div class="underline"></div>
+						</li> <!-- <li class="nav-item dropdown"> -->
+						<!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						Miscellaneous
+					</a> -->
+						<!-- /a#navbarDropdownMenuLink -->
+						<!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink"> -->
+						<!-- </div> -->
+						<!-- /div.dropdown-menu.dropdown-menu-right -->
+						<!-- </li> -->
+						<!-- /li.nav-item.dropdown -->
+					</ul>
+					<!-- /ul.navbar-nav.ml-auto -->
+				</div>
+				<!-- /#navbarResponsive -->
+			</div>
+			<!-- /div#container-fluid -->
+		</nav>
+		<!-- /nav.navbar.navbar-expand-md.fixed-top -->
+
+		<div class="container-fluid">
+			<div class="section">
+				<h1 class="section-title">Pokémon Type Matchups</h1>
+
+				<div class="col-xl-10 section">
+					<div id="type-selection">
+						<div class="card bg-transparent">
+							<div class="row justify-content-center">
+								<div class="col-xl-5" id="type-1">
+									<h4>Primary Type</h4>
+								</div>
+								<!-- /div#type-1 -->
+								<div class="col-xl-5" id="type-2">
+									<h4>Secondary Type</h4>
+									<button class="btn btn-sm btn-outline-secondary btn-pkmn2 active" id="btn-nil2"
+										onclick="click2('nil')">NONE</button>
+								</div>
+								<!-- /div#type-2 -->
+
+								<button class="btn btn-outline-light" id="btn-reset" onclick="reset()">RESET
+									SELECTION</button>
+							</div>
+							<!-- /div.row.justify-content-center -->
+						</div>
+						<!-- /div.card.bg-transparent -->
+					</div>
+					<!-- /div#type-selection -->
+
+					<hr>
+					<div class="row" id="type-effectiveness">
+						<div class="col-xl-12">
+							<h4>Weakness Chart</h4>
+						</div>
+						<div class="col-xl-5 offset-xl-1">
+							<div class="card bg-transparent">
+								<h4>Super Effective</h4>
+
+								<div class="d-flex flex-row flex-wrap justify-content-center" id="super-effect">
+								</div>
+								<!-- /div#super-effect -->
+							</div>
+							<!-- /div.card.bg-transparent -->
+						</div>
+						<!-- /div.col-xl-3 -->
+
+
+						<div class="col-xl-5">
+							<div class="card bg-transparent">
+								<h4>Effective</h4>
+
+								<div class="d-flex flex-row flex-wrap justify-content-center" id="normal-effect">
+								</div>
+								<!-- /div#normal-effect -->
+							</div>
+							<!-- /div.card.bg-transparent -->
+						</div>
+						<!-- /div.col-xl-3 -->
+
+
+						<div class="col-xl-5 offset-xl-1">
+							<div class="card bg-transparent">
+								<h4>Less Effective</h4>
+
+								<div class="d-flex flex-row flex-wrap justify-content-center" id="less-effect">
+								</div>
+								<!-- /div#less-effect -->
+							</div>
+							<!-- /div.card.bg-transparent -->
+						</div>
+						<!-- /div.col-xl-3 -->
+
+
+						<div class="col-xl-5">
+							<div class="card bg-transparent">
+								<h4>No Effect</h4>
+
+								<div class="d-flex flex-row flex-wrap justify-content-center" id="immune-effect">
+								</div>
+								<!-- /div#immune-effect -->
+							</div>
+							<!-- /div.card.bg-transparent -->
+						</div>
+						<!-- /div.col-xl-3 -->
+					</div>
+					<!-- /div#type-effectiveness -->
+
+					<div class="row" id="pokedex-list">
+					</div>
+					<!-- /div#pokedex-list -->
+				</div>
+				<!-- /div.row.col-xl-10.section -->
+
+				<p class="caption">
+					Icons obtained from: <a
+						href="https://github.com/duiker101/pokemon-type-svg-icons">https://github.com/duiker101/pokemon-type-svg-icons</a>
+				</p>
+			</div>
+			<!-- /div.section -->
+		</div>
+		<!-- /div.container-fluid -->
+
+		<footer>
+			<p>@<span id="year"></span> deezombiedude612.github.io</p>
+			<ul>
+				<li>
+					<a href="https://twitter.com/HenryHHW" target="_blank">
+						<i class="fab fa-twitter fa-lg footer-fa"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/henryheng612/" target="_blank">
+						<i class="fab fa-linkedin-in fa-lg footer-fa"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/user/deezombiedude612/" target="_blank">
+						<i class="fab fa-youtube fa-lg footer-fa"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<!-- /footer -->
+
+		<!-- jQuery (must be put first before Bootstrap) -->
+		<script src="../assets/jquery-dist/jquery.min.js"></script>
+
+		<!-- Popper JS (must be put before Bootstrap) -->
+		<script src="../assets/popperjs-dist/umd/popper.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script src="../assets/bootstrap-dist/js/bootstrap.min.js"></script>
+		<script src="../assets/bootstrap-dist/js/bootstrap.bundle.min.js"></script>
+
+		<!-- External JS -->
+		<script src="../assets/js/main.js"></script>
+
+		<!-- External JS -->
+		<script src="../assets/js/main.js"></script>
+		<script src="../assets/js/navbar.js"></script>
+		<script src="../assets/js/pokedex.js"></script>
+		<script src="../assets/js/poketypes.js"></script>
+	</body>
+
+</html>
