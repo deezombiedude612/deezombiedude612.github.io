@@ -739,8 +739,8 @@ footer ul li a i {
 }
 #type-1 button#btn-dragon1,
 #type-2 button#btn-dragon1 {
-  border: 1px solid var(--pkmn-dragon);
-  color: var(--pkmn-dragon);
+  border: 1px solid var(--icon-dragon);
+  color: var(--icon-dragon);
 }
 #type-1 button#btn-dragon1.disabled,
 #type-2 button#btn-dragon1.disabled {
@@ -748,24 +748,24 @@ footer ul li a i {
 }
 #type-1 button#btn-dragon1:not(.disabled):hover,
 #type-2 button#btn-dragon1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-dragon);
-  background-color: var(--pkmn-dragon);
+  box-shadow: 0 0 7.5px var(--icon-dragon);
+  background-color: var(--icon-dragon);
   color: var(--white);
 }
 #type-1 button#btn-dragon1:not(.disabled).active,
 #type-2 button#btn-dragon1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-dragon), 0 0 2rem var(--pkmn-dragon);
-  background-color: var(--pkmn-dragon);
+  box-shadow: 0 0 7.5px var(--icon-dragon), 0 0 2rem var(--icon-dragon);
+  background-color: var(--icon-dragon);
   color: var(--white);
 }
 #type-1 button#btn-dragon1:not(.disabled).active:hover,
 #type-2 button#btn-dragon1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-dragon);
+  box-shadow: 0 0 5rem var(--icon-dragon);
 }
 #type-1 button#btn-dragon2,
 #type-2 button#btn-dragon2 {
-  border: 1px solid var(--pkmn-dragon);
-  color: var(--pkmn-dragon);
+  border: 1px solid var(--icon-dragon);
+  color: var(--icon-dragon);
 }
 #type-1 button#btn-dragon2.disabled,
 #type-2 button#btn-dragon2.disabled {
@@ -773,24 +773,24 @@ footer ul li a i {
 }
 #type-1 button#btn-dragon2:not(.disabled):hover,
 #type-2 button#btn-dragon2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-dragon);
-  background-color: var(--pkmn-dragon);
+  box-shadow: 0 0 7.5px var(--icon-dragon);
+  background-color: var(--icon-dragon);
   color: var(--white);
 }
 #type-1 button#btn-dragon2:not(.disabled).active,
 #type-2 button#btn-dragon2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-dragon), 0 0 2rem var(--pkmn-dragon);
-  background-color: var(--pkmn-dragon);
+  box-shadow: 0 0 7.5px var(--icon-dragon), 0 0 2rem var(--icon-dragon);
+  background-color: var(--icon-dragon);
   color: var(--white);
 }
 #type-1 button#btn-dragon2:not(.disabled).active:hover,
 #type-2 button#btn-dragon2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-dragon);
+  box-shadow: 0 0 5rem var(--icon-dragon);
 }
 #type-1 button#btn-ghost1,
 #type-2 button#btn-ghost1 {
-  border: 1px solid var(--pkmn-ghost);
-  color: var(--pkmn-ghost);
+  border: 1px solid var(--icon-ghost);
+  color: var(--icon-ghost);
 }
 #type-1 button#btn-ghost1.disabled,
 #type-2 button#btn-ghost1.disabled {
@@ -798,24 +798,24 @@ footer ul li a i {
 }
 #type-1 button#btn-ghost1:not(.disabled):hover,
 #type-2 button#btn-ghost1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-ghost);
-  background-color: var(--pkmn-ghost);
+  box-shadow: 0 0 7.5px var(--icon-ghost);
+  background-color: var(--icon-ghost);
   color: var(--white);
 }
 #type-1 button#btn-ghost1:not(.disabled).active,
 #type-2 button#btn-ghost1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-ghost), 0 0 2rem var(--pkmn-ghost);
-  background-color: var(--pkmn-ghost);
+  box-shadow: 0 0 7.5px var(--icon-ghost), 0 0 2rem var(--icon-ghost);
+  background-color: var(--icon-ghost);
   color: var(--white);
 }
 #type-1 button#btn-ghost1:not(.disabled).active:hover,
 #type-2 button#btn-ghost1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-ghost);
+  box-shadow: 0 0 5rem var(--icon-ghost);
 }
 #type-1 button#btn-ghost2,
 #type-2 button#btn-ghost2 {
-  border: 1px solid var(--pkmn-ghost);
-  color: var(--pkmn-ghost);
+  border: 1px solid var(--icon-ghost);
+  color: var(--icon-ghost);
 }
 #type-1 button#btn-ghost2.disabled,
 #type-2 button#btn-ghost2.disabled {
@@ -823,24 +823,24 @@ footer ul li a i {
 }
 #type-1 button#btn-ghost2:not(.disabled):hover,
 #type-2 button#btn-ghost2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-ghost);
-  background-color: var(--pkmn-ghost);
+  box-shadow: 0 0 7.5px var(--icon-ghost);
+  background-color: var(--icon-ghost);
   color: var(--white);
 }
 #type-1 button#btn-ghost2:not(.disabled).active,
 #type-2 button#btn-ghost2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-ghost), 0 0 2rem var(--pkmn-ghost);
-  background-color: var(--pkmn-ghost);
+  box-shadow: 0 0 7.5px var(--icon-ghost), 0 0 2rem var(--icon-ghost);
+  background-color: var(--icon-ghost);
   color: var(--white);
 }
 #type-1 button#btn-ghost2:not(.disabled).active:hover,
 #type-2 button#btn-ghost2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-ghost);
+  box-shadow: 0 0 5rem var(--icon-ghost);
 }
 #type-1 button#btn-ground1,
 #type-2 button#btn-ground1 {
-  border: 1px solid var(--pkmn-ground);
-  color: var(--pkmn-ground);
+  border: 1px solid var(--icon-ground);
+  color: var(--icon-ground);
 }
 #type-1 button#btn-ground1.disabled,
 #type-2 button#btn-ground1.disabled {
@@ -848,24 +848,24 @@ footer ul li a i {
 }
 #type-1 button#btn-ground1:not(.disabled):hover,
 #type-2 button#btn-ground1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-ground);
-  background-color: var(--pkmn-ground);
+  box-shadow: 0 0 7.5px var(--icon-ground);
+  background-color: var(--icon-ground);
   color: black;
 }
 #type-1 button#btn-ground1:not(.disabled).active,
 #type-2 button#btn-ground1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-ground), 0 0 2rem var(--pkmn-ground);
-  background-color: var(--pkmn-ground);
+  box-shadow: 0 0 7.5px var(--icon-ground), 0 0 2rem var(--icon-ground);
+  background-color: var(--icon-ground);
   color: black;
 }
 #type-1 button#btn-ground1:not(.disabled).active:hover,
 #type-2 button#btn-ground1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-ground);
+  box-shadow: 0 0 5rem var(--icon-ground);
 }
 #type-1 button#btn-ground2,
 #type-2 button#btn-ground2 {
-  border: 1px solid var(--pkmn-ground);
-  color: var(--pkmn-ground);
+  border: 1px solid var(--icon-ground);
+  color: var(--icon-ground);
 }
 #type-1 button#btn-ground2.disabled,
 #type-2 button#btn-ground2.disabled {
@@ -873,24 +873,24 @@ footer ul li a i {
 }
 #type-1 button#btn-ground2:not(.disabled):hover,
 #type-2 button#btn-ground2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-ground);
-  background-color: var(--pkmn-ground);
+  box-shadow: 0 0 7.5px var(--icon-ground);
+  background-color: var(--icon-ground);
   color: black;
 }
 #type-1 button#btn-ground2:not(.disabled).active,
 #type-2 button#btn-ground2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-ground), 0 0 2rem var(--pkmn-ground);
-  background-color: var(--pkmn-ground);
+  box-shadow: 0 0 7.5px var(--icon-ground), 0 0 2rem var(--icon-ground);
+  background-color: var(--icon-ground);
   color: black;
 }
 #type-1 button#btn-ground2:not(.disabled).active:hover,
 #type-2 button#btn-ground2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-ground);
+  box-shadow: 0 0 5rem var(--icon-ground);
 }
 #type-1 button#btn-flying1,
 #type-2 button#btn-flying1 {
-  border: 1px solid var(--pkmn-flying);
-  color: var(--pkmn-flying);
+  border: 1px solid var(--icon-flying);
+  color: var(--icon-flying);
 }
 #type-1 button#btn-flying1.disabled,
 #type-2 button#btn-flying1.disabled {
@@ -898,24 +898,24 @@ footer ul li a i {
 }
 #type-1 button#btn-flying1:not(.disabled):hover,
 #type-2 button#btn-flying1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-flying);
-  background-color: var(--pkmn-flying);
+  box-shadow: 0 0 7.5px var(--icon-flying);
+  background-color: var(--icon-flying);
   color: var(--white);
 }
 #type-1 button#btn-flying1:not(.disabled).active,
 #type-2 button#btn-flying1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-flying), 0 0 2rem var(--pkmn-flying);
-  background-color: var(--pkmn-flying);
+  box-shadow: 0 0 7.5px var(--icon-flying), 0 0 2rem var(--icon-flying);
+  background-color: var(--icon-flying);
   color: var(--white);
 }
 #type-1 button#btn-flying1:not(.disabled).active:hover,
 #type-2 button#btn-flying1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-flying);
+  box-shadow: 0 0 5rem var(--icon-flying);
 }
 #type-1 button#btn-flying2,
 #type-2 button#btn-flying2 {
-  border: 1px solid var(--pkmn-flying);
-  color: var(--pkmn-flying);
+  border: 1px solid var(--icon-flying);
+  color: var(--icon-flying);
 }
 #type-1 button#btn-flying2.disabled,
 #type-2 button#btn-flying2.disabled {
@@ -923,24 +923,24 @@ footer ul li a i {
 }
 #type-1 button#btn-flying2:not(.disabled):hover,
 #type-2 button#btn-flying2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-flying);
-  background-color: var(--pkmn-flying);
+  box-shadow: 0 0 7.5px var(--icon-flying);
+  background-color: var(--icon-flying);
   color: var(--white);
 }
 #type-1 button#btn-flying2:not(.disabled).active,
 #type-2 button#btn-flying2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-flying), 0 0 2rem var(--pkmn-flying);
-  background-color: var(--pkmn-flying);
+  box-shadow: 0 0 7.5px var(--icon-flying), 0 0 2rem var(--icon-flying);
+  background-color: var(--icon-flying);
   color: var(--white);
 }
 #type-1 button#btn-flying2:not(.disabled).active:hover,
 #type-2 button#btn-flying2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-flying);
+  box-shadow: 0 0 5rem var(--icon-flying);
 }
 #type-1 button#btn-poison1,
 #type-2 button#btn-poison1 {
-  border: 1px solid var(--pkmn-poison);
-  color: var(--pkmn-poison);
+  border: 1px solid var(--icon-poison);
+  color: var(--icon-poison);
 }
 #type-1 button#btn-poison1.disabled,
 #type-2 button#btn-poison1.disabled {
@@ -948,24 +948,24 @@ footer ul li a i {
 }
 #type-1 button#btn-poison1:not(.disabled):hover,
 #type-2 button#btn-poison1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-poison);
-  background-color: var(--pkmn-poison);
+  box-shadow: 0 0 7.5px var(--icon-poison);
+  background-color: var(--icon-poison);
   color: var(--white);
 }
 #type-1 button#btn-poison1:not(.disabled).active,
 #type-2 button#btn-poison1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-poison), 0 0 2rem var(--pkmn-poison);
-  background-color: var(--pkmn-poison);
+  box-shadow: 0 0 7.5px var(--icon-poison), 0 0 2rem var(--icon-poison);
+  background-color: var(--icon-poison);
   color: var(--white);
 }
 #type-1 button#btn-poison1:not(.disabled).active:hover,
 #type-2 button#btn-poison1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-poison);
+  box-shadow: 0 0 5rem var(--icon-poison);
 }
 #type-1 button#btn-poison2,
 #type-2 button#btn-poison2 {
-  border: 1px solid var(--pkmn-poison);
-  color: var(--pkmn-poison);
+  border: 1px solid var(--icon-poison);
+  color: var(--icon-poison);
 }
 #type-1 button#btn-poison2.disabled,
 #type-2 button#btn-poison2.disabled {
@@ -973,24 +973,24 @@ footer ul li a i {
 }
 #type-1 button#btn-poison2:not(.disabled):hover,
 #type-2 button#btn-poison2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-poison);
-  background-color: var(--pkmn-poison);
+  box-shadow: 0 0 7.5px var(--icon-poison);
+  background-color: var(--icon-poison);
   color: var(--white);
 }
 #type-1 button#btn-poison2:not(.disabled).active,
 #type-2 button#btn-poison2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-poison), 0 0 2rem var(--pkmn-poison);
-  background-color: var(--pkmn-poison);
+  box-shadow: 0 0 7.5px var(--icon-poison), 0 0 2rem var(--icon-poison);
+  background-color: var(--icon-poison);
   color: var(--white);
 }
 #type-1 button#btn-poison2:not(.disabled).active:hover,
 #type-2 button#btn-poison2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-poison);
+  box-shadow: 0 0 5rem var(--icon-poison);
 }
 #type-1 button#btn-bug1,
 #type-2 button#btn-bug1 {
-  border: 1px solid var(--pkmn-bug);
-  color: var(--pkmn-bug);
+  border: 1px solid var(--icon-bug);
+  color: var(--icon-bug);
 }
 #type-1 button#btn-bug1.disabled,
 #type-2 button#btn-bug1.disabled {
@@ -998,24 +998,24 @@ footer ul li a i {
 }
 #type-1 button#btn-bug1:not(.disabled):hover,
 #type-2 button#btn-bug1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-bug);
-  background-color: var(--pkmn-bug);
+  box-shadow: 0 0 7.5px var(--icon-bug);
+  background-color: var(--icon-bug);
   color: black;
 }
 #type-1 button#btn-bug1:not(.disabled).active,
 #type-2 button#btn-bug1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-bug), 0 0 2rem var(--pkmn-bug);
-  background-color: var(--pkmn-bug);
+  box-shadow: 0 0 7.5px var(--icon-bug), 0 0 2rem var(--icon-bug);
+  background-color: var(--icon-bug);
   color: black;
 }
 #type-1 button#btn-bug1:not(.disabled).active:hover,
 #type-2 button#btn-bug1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-bug);
+  box-shadow: 0 0 5rem var(--icon-bug);
 }
 #type-1 button#btn-bug2,
 #type-2 button#btn-bug2 {
-  border: 1px solid var(--pkmn-bug);
-  color: var(--pkmn-bug);
+  border: 1px solid var(--icon-bug);
+  color: var(--icon-bug);
 }
 #type-1 button#btn-bug2.disabled,
 #type-2 button#btn-bug2.disabled {
@@ -1023,24 +1023,24 @@ footer ul li a i {
 }
 #type-1 button#btn-bug2:not(.disabled):hover,
 #type-2 button#btn-bug2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-bug);
-  background-color: var(--pkmn-bug);
+  box-shadow: 0 0 7.5px var(--icon-bug);
+  background-color: var(--icon-bug);
   color: black;
 }
 #type-1 button#btn-bug2:not(.disabled).active,
 #type-2 button#btn-bug2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-bug), 0 0 2rem var(--pkmn-bug);
-  background-color: var(--pkmn-bug);
+  box-shadow: 0 0 7.5px var(--icon-bug), 0 0 2rem var(--icon-bug);
+  background-color: var(--icon-bug);
   color: black;
 }
 #type-1 button#btn-bug2:not(.disabled).active:hover,
 #type-2 button#btn-bug2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-bug);
+  box-shadow: 0 0 5rem var(--icon-bug);
 }
 #type-1 button#btn-water1,
 #type-2 button#btn-water1 {
-  border: 1px solid var(--pkmn-water);
-  color: var(--pkmn-water);
+  border: 1px solid var(--icon-water);
+  color: var(--icon-water);
 }
 #type-1 button#btn-water1.disabled,
 #type-2 button#btn-water1.disabled {
@@ -1048,24 +1048,24 @@ footer ul li a i {
 }
 #type-1 button#btn-water1:not(.disabled):hover,
 #type-2 button#btn-water1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-water);
-  background-color: var(--pkmn-water);
+  box-shadow: 0 0 7.5px var(--icon-water);
+  background-color: var(--icon-water);
   color: var(--white);
 }
 #type-1 button#btn-water1:not(.disabled).active,
 #type-2 button#btn-water1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-water), 0 0 2rem var(--pkmn-water);
-  background-color: var(--pkmn-water);
+  box-shadow: 0 0 7.5px var(--icon-water), 0 0 2rem var(--icon-water);
+  background-color: var(--icon-water);
   color: var(--white);
 }
 #type-1 button#btn-water1:not(.disabled).active:hover,
 #type-2 button#btn-water1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-water);
+  box-shadow: 0 0 5rem var(--icon-water);
 }
 #type-1 button#btn-water2,
 #type-2 button#btn-water2 {
-  border: 1px solid var(--pkmn-water);
-  color: var(--pkmn-water);
+  border: 1px solid var(--icon-water);
+  color: var(--icon-water);
 }
 #type-1 button#btn-water2.disabled,
 #type-2 button#btn-water2.disabled {
@@ -1073,24 +1073,24 @@ footer ul li a i {
 }
 #type-1 button#btn-water2:not(.disabled):hover,
 #type-2 button#btn-water2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-water);
-  background-color: var(--pkmn-water);
+  box-shadow: 0 0 7.5px var(--icon-water);
+  background-color: var(--icon-water);
   color: var(--white);
 }
 #type-1 button#btn-water2:not(.disabled).active,
 #type-2 button#btn-water2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-water), 0 0 2rem var(--pkmn-water);
-  background-color: var(--pkmn-water);
+  box-shadow: 0 0 7.5px var(--icon-water), 0 0 2rem var(--icon-water);
+  background-color: var(--icon-water);
   color: var(--white);
 }
 #type-1 button#btn-water2:not(.disabled).active:hover,
 #type-2 button#btn-water2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-water);
+  box-shadow: 0 0 5rem var(--icon-water);
 }
 #type-1 button#btn-electric1,
 #type-2 button#btn-electric1 {
-  border: 1px solid var(--pkmn-electric);
-  color: var(--pkmn-electric);
+  border: 1px solid var(--icon-electric);
+  color: var(--icon-electric);
 }
 #type-1 button#btn-electric1.disabled,
 #type-2 button#btn-electric1.disabled {
@@ -1098,24 +1098,24 @@ footer ul li a i {
 }
 #type-1 button#btn-electric1:not(.disabled):hover,
 #type-2 button#btn-electric1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-electric);
-  background-color: var(--pkmn-electric);
+  box-shadow: 0 0 7.5px var(--icon-electric);
+  background-color: var(--icon-electric);
   color: black;
 }
 #type-1 button#btn-electric1:not(.disabled).active,
 #type-2 button#btn-electric1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-electric), 0 0 2rem var(--pkmn-electric);
-  background-color: var(--pkmn-electric);
+  box-shadow: 0 0 7.5px var(--icon-electric), 0 0 2rem var(--icon-electric);
+  background-color: var(--icon-electric);
   color: black;
 }
 #type-1 button#btn-electric1:not(.disabled).active:hover,
 #type-2 button#btn-electric1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-electric);
+  box-shadow: 0 0 5rem var(--icon-electric);
 }
 #type-1 button#btn-electric2,
 #type-2 button#btn-electric2 {
-  border: 1px solid var(--pkmn-electric);
-  color: var(--pkmn-electric);
+  border: 1px solid var(--icon-electric);
+  color: var(--icon-electric);
 }
 #type-1 button#btn-electric2.disabled,
 #type-2 button#btn-electric2.disabled {
@@ -1123,24 +1123,24 @@ footer ul li a i {
 }
 #type-1 button#btn-electric2:not(.disabled):hover,
 #type-2 button#btn-electric2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-electric);
-  background-color: var(--pkmn-electric);
+  box-shadow: 0 0 7.5px var(--icon-electric);
+  background-color: var(--icon-electric);
   color: black;
 }
 #type-1 button#btn-electric2:not(.disabled).active,
 #type-2 button#btn-electric2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-electric), 0 0 2rem var(--pkmn-electric);
-  background-color: var(--pkmn-electric);
+  box-shadow: 0 0 7.5px var(--icon-electric), 0 0 2rem var(--icon-electric);
+  background-color: var(--icon-electric);
   color: black;
 }
 #type-1 button#btn-electric2:not(.disabled).active:hover,
 #type-2 button#btn-electric2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-electric);
+  box-shadow: 0 0 5rem var(--icon-electric);
 }
 #type-1 button#btn-rock1,
 #type-2 button#btn-rock1 {
-  border: 1px solid var(--pkmn-rock);
-  color: var(--pkmn-rock);
+  border: 1px solid var(--icon-rock);
+  color: var(--icon-rock);
 }
 #type-1 button#btn-rock1.disabled,
 #type-2 button#btn-rock1.disabled {
@@ -1148,24 +1148,24 @@ footer ul li a i {
 }
 #type-1 button#btn-rock1:not(.disabled):hover,
 #type-2 button#btn-rock1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-rock);
-  background-color: var(--pkmn-rock);
+  box-shadow: 0 0 7.5px var(--icon-rock);
+  background-color: var(--icon-rock);
   color: var(--white);
 }
 #type-1 button#btn-rock1:not(.disabled).active,
 #type-2 button#btn-rock1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-rock), 0 0 2rem var(--pkmn-rock);
-  background-color: var(--pkmn-rock);
+  box-shadow: 0 0 7.5px var(--icon-rock), 0 0 2rem var(--icon-rock);
+  background-color: var(--icon-rock);
   color: var(--white);
 }
 #type-1 button#btn-rock1:not(.disabled).active:hover,
 #type-2 button#btn-rock1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-rock);
+  box-shadow: 0 0 5rem var(--icon-rock);
 }
 #type-1 button#btn-rock2,
 #type-2 button#btn-rock2 {
-  border: 1px solid var(--pkmn-rock);
-  color: var(--pkmn-rock);
+  border: 1px solid var(--icon-rock);
+  color: var(--icon-rock);
 }
 #type-1 button#btn-rock2.disabled,
 #type-2 button#btn-rock2.disabled {
@@ -1173,24 +1173,24 @@ footer ul li a i {
 }
 #type-1 button#btn-rock2:not(.disabled):hover,
 #type-2 button#btn-rock2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-rock);
-  background-color: var(--pkmn-rock);
+  box-shadow: 0 0 7.5px var(--icon-rock);
+  background-color: var(--icon-rock);
   color: var(--white);
 }
 #type-1 button#btn-rock2:not(.disabled).active,
 #type-2 button#btn-rock2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-rock), 0 0 2rem var(--pkmn-rock);
-  background-color: var(--pkmn-rock);
+  box-shadow: 0 0 7.5px var(--icon-rock), 0 0 2rem var(--icon-rock);
+  background-color: var(--icon-rock);
   color: var(--white);
 }
 #type-1 button#btn-rock2:not(.disabled).active:hover,
 #type-2 button#btn-rock2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-rock);
+  box-shadow: 0 0 5rem var(--icon-rock);
 }
 #type-1 button#btn-grass1,
 #type-2 button#btn-grass1 {
-  border: 1px solid var(--pkmn-grass);
-  color: var(--pkmn-grass);
+  border: 1px solid var(--icon-grass);
+  color: var(--icon-grass);
 }
 #type-1 button#btn-grass1.disabled,
 #type-2 button#btn-grass1.disabled {
@@ -1198,24 +1198,24 @@ footer ul li a i {
 }
 #type-1 button#btn-grass1:not(.disabled):hover,
 #type-2 button#btn-grass1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-grass);
-  background-color: var(--pkmn-grass);
+  box-shadow: 0 0 7.5px var(--icon-grass);
+  background-color: var(--icon-grass);
   color: black;
 }
 #type-1 button#btn-grass1:not(.disabled).active,
 #type-2 button#btn-grass1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-grass), 0 0 2rem var(--pkmn-grass);
-  background-color: var(--pkmn-grass);
+  box-shadow: 0 0 7.5px var(--icon-grass), 0 0 2rem var(--icon-grass);
+  background-color: var(--icon-grass);
   color: black;
 }
 #type-1 button#btn-grass1:not(.disabled).active:hover,
 #type-2 button#btn-grass1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-grass);
+  box-shadow: 0 0 5rem var(--icon-grass);
 }
 #type-1 button#btn-grass2,
 #type-2 button#btn-grass2 {
-  border: 1px solid var(--pkmn-grass);
-  color: var(--pkmn-grass);
+  border: 1px solid var(--icon-grass);
+  color: var(--icon-grass);
 }
 #type-1 button#btn-grass2.disabled,
 #type-2 button#btn-grass2.disabled {
@@ -1223,24 +1223,24 @@ footer ul li a i {
 }
 #type-1 button#btn-grass2:not(.disabled):hover,
 #type-2 button#btn-grass2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-grass);
-  background-color: var(--pkmn-grass);
+  box-shadow: 0 0 7.5px var(--icon-grass);
+  background-color: var(--icon-grass);
   color: black;
 }
 #type-1 button#btn-grass2:not(.disabled).active,
 #type-2 button#btn-grass2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-grass), 0 0 2rem var(--pkmn-grass);
-  background-color: var(--pkmn-grass);
+  box-shadow: 0 0 7.5px var(--icon-grass), 0 0 2rem var(--icon-grass);
+  background-color: var(--icon-grass);
   color: black;
 }
 #type-1 button#btn-grass2:not(.disabled).active:hover,
 #type-2 button#btn-grass2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-grass);
+  box-shadow: 0 0 5rem var(--icon-grass);
 }
 #type-1 button#btn-dark1,
 #type-2 button#btn-dark1 {
-  border: 1px solid var(--pkmn-dark);
-  color: var(--pkmn-dark);
+  border: 1px solid var(--icon-dark);
+  color: var(--icon-dark);
 }
 #type-1 button#btn-dark1.disabled,
 #type-2 button#btn-dark1.disabled {
@@ -1248,24 +1248,24 @@ footer ul li a i {
 }
 #type-1 button#btn-dark1:not(.disabled):hover,
 #type-2 button#btn-dark1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-dark);
-  background-color: var(--pkmn-dark);
+  box-shadow: 0 0 7.5px var(--icon-dark);
+  background-color: var(--icon-dark);
   color: var(--white);
 }
 #type-1 button#btn-dark1:not(.disabled).active,
 #type-2 button#btn-dark1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-dark), 0 0 2rem var(--pkmn-dark);
-  background-color: var(--pkmn-dark);
+  box-shadow: 0 0 7.5px var(--icon-dark), 0 0 2rem var(--icon-dark);
+  background-color: var(--icon-dark);
   color: var(--white);
 }
 #type-1 button#btn-dark1:not(.disabled).active:hover,
 #type-2 button#btn-dark1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-dark);
+  box-shadow: 0 0 5rem var(--icon-dark);
 }
 #type-1 button#btn-dark2,
 #type-2 button#btn-dark2 {
-  border: 1px solid var(--pkmn-dark);
-  color: var(--pkmn-dark);
+  border: 1px solid var(--icon-dark);
+  color: var(--icon-dark);
 }
 #type-1 button#btn-dark2.disabled,
 #type-2 button#btn-dark2.disabled {
@@ -1273,24 +1273,24 @@ footer ul li a i {
 }
 #type-1 button#btn-dark2:not(.disabled):hover,
 #type-2 button#btn-dark2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-dark);
-  background-color: var(--pkmn-dark);
+  box-shadow: 0 0 7.5px var(--icon-dark);
+  background-color: var(--icon-dark);
   color: var(--white);
 }
 #type-1 button#btn-dark2:not(.disabled).active,
 #type-2 button#btn-dark2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-dark), 0 0 2rem var(--pkmn-dark);
-  background-color: var(--pkmn-dark);
+  box-shadow: 0 0 7.5px var(--icon-dark), 0 0 2rem var(--icon-dark);
+  background-color: var(--icon-dark);
   color: var(--white);
 }
 #type-1 button#btn-dark2:not(.disabled).active:hover,
 #type-2 button#btn-dark2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-dark);
+  box-shadow: 0 0 5rem var(--icon-dark);
 }
 #type-1 button#btn-ice1,
 #type-2 button#btn-ice1 {
-  border: 1px solid var(--pkmn-ice);
-  color: var(--pkmn-ice);
+  border: 1px solid var(--icon-ice);
+  color: var(--icon-ice);
 }
 #type-1 button#btn-ice1.disabled,
 #type-2 button#btn-ice1.disabled {
@@ -1298,24 +1298,24 @@ footer ul li a i {
 }
 #type-1 button#btn-ice1:not(.disabled):hover,
 #type-2 button#btn-ice1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-ice);
-  background-color: var(--pkmn-ice);
+  box-shadow: 0 0 7.5px var(--icon-ice);
+  background-color: var(--icon-ice);
   color: black;
 }
 #type-1 button#btn-ice1:not(.disabled).active,
 #type-2 button#btn-ice1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-ice), 0 0 2rem var(--pkmn-ice);
-  background-color: var(--pkmn-ice);
+  box-shadow: 0 0 7.5px var(--icon-ice), 0 0 2rem var(--icon-ice);
+  background-color: var(--icon-ice);
   color: black;
 }
 #type-1 button#btn-ice1:not(.disabled).active:hover,
 #type-2 button#btn-ice1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-ice);
+  box-shadow: 0 0 5rem var(--icon-ice);
 }
 #type-1 button#btn-ice2,
 #type-2 button#btn-ice2 {
-  border: 1px solid var(--pkmn-ice);
-  color: var(--pkmn-ice);
+  border: 1px solid var(--icon-ice);
+  color: var(--icon-ice);
 }
 #type-1 button#btn-ice2.disabled,
 #type-2 button#btn-ice2.disabled {
@@ -1323,24 +1323,24 @@ footer ul li a i {
 }
 #type-1 button#btn-ice2:not(.disabled):hover,
 #type-2 button#btn-ice2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-ice);
-  background-color: var(--pkmn-ice);
+  box-shadow: 0 0 7.5px var(--icon-ice);
+  background-color: var(--icon-ice);
   color: black;
 }
 #type-1 button#btn-ice2:not(.disabled).active,
 #type-2 button#btn-ice2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-ice), 0 0 2rem var(--pkmn-ice);
-  background-color: var(--pkmn-ice);
+  box-shadow: 0 0 7.5px var(--icon-ice), 0 0 2rem var(--icon-ice);
+  background-color: var(--icon-ice);
   color: black;
 }
 #type-1 button#btn-ice2:not(.disabled).active:hover,
 #type-2 button#btn-ice2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-ice);
+  box-shadow: 0 0 5rem var(--icon-ice);
 }
 #type-1 button#btn-normal1,
 #type-2 button#btn-normal1 {
-  border: 1px solid var(--pkmn-normal);
-  color: var(--pkmn-normal);
+  border: 1px solid var(--icon-normal);
+  color: var(--icon-normal);
 }
 #type-1 button#btn-normal1.disabled,
 #type-2 button#btn-normal1.disabled {
@@ -1348,24 +1348,24 @@ footer ul li a i {
 }
 #type-1 button#btn-normal1:not(.disabled):hover,
 #type-2 button#btn-normal1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-normal);
-  background-color: var(--pkmn-normal);
+  box-shadow: 0 0 7.5px var(--icon-normal);
+  background-color: var(--icon-normal);
   color: var(--white);
 }
 #type-1 button#btn-normal1:not(.disabled).active,
 #type-2 button#btn-normal1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-normal), 0 0 2rem var(--pkmn-normal);
-  background-color: var(--pkmn-normal);
+  box-shadow: 0 0 7.5px var(--icon-normal), 0 0 2rem var(--icon-normal);
+  background-color: var(--icon-normal);
   color: var(--white);
 }
 #type-1 button#btn-normal1:not(.disabled).active:hover,
 #type-2 button#btn-normal1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-normal);
+  box-shadow: 0 0 5rem var(--icon-normal);
 }
 #type-1 button#btn-normal2,
 #type-2 button#btn-normal2 {
-  border: 1px solid var(--pkmn-normal);
-  color: var(--pkmn-normal);
+  border: 1px solid var(--icon-normal);
+  color: var(--icon-normal);
 }
 #type-1 button#btn-normal2.disabled,
 #type-2 button#btn-normal2.disabled {
@@ -1373,24 +1373,24 @@ footer ul li a i {
 }
 #type-1 button#btn-normal2:not(.disabled):hover,
 #type-2 button#btn-normal2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-normal);
-  background-color: var(--pkmn-normal);
+  box-shadow: 0 0 7.5px var(--icon-normal);
+  background-color: var(--icon-normal);
   color: var(--white);
 }
 #type-1 button#btn-normal2:not(.disabled).active,
 #type-2 button#btn-normal2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-normal), 0 0 2rem var(--pkmn-normal);
-  background-color: var(--pkmn-normal);
+  box-shadow: 0 0 7.5px var(--icon-normal), 0 0 2rem var(--icon-normal);
+  background-color: var(--icon-normal);
   color: var(--white);
 }
 #type-1 button#btn-normal2:not(.disabled).active:hover,
 #type-2 button#btn-normal2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-normal);
+  box-shadow: 0 0 5rem var(--icon-normal);
 }
 #type-1 button#btn-fire1,
 #type-2 button#btn-fire1 {
-  border: 1px solid var(--pkmn-fire);
-  color: var(--pkmn-fire);
+  border: 1px solid var(--icon-fire);
+  color: var(--icon-fire);
 }
 #type-1 button#btn-fire1.disabled,
 #type-2 button#btn-fire1.disabled {
@@ -1398,24 +1398,24 @@ footer ul li a i {
 }
 #type-1 button#btn-fire1:not(.disabled):hover,
 #type-2 button#btn-fire1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-fire);
-  background-color: var(--pkmn-fire);
+  box-shadow: 0 0 7.5px var(--icon-fire);
+  background-color: var(--icon-fire);
   color: var(--white);
 }
 #type-1 button#btn-fire1:not(.disabled).active,
 #type-2 button#btn-fire1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-fire), 0 0 2rem var(--pkmn-fire);
-  background-color: var(--pkmn-fire);
+  box-shadow: 0 0 7.5px var(--icon-fire), 0 0 2rem var(--icon-fire);
+  background-color: var(--icon-fire);
   color: var(--white);
 }
 #type-1 button#btn-fire1:not(.disabled).active:hover,
 #type-2 button#btn-fire1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-fire);
+  box-shadow: 0 0 5rem var(--icon-fire);
 }
 #type-1 button#btn-fire2,
 #type-2 button#btn-fire2 {
-  border: 1px solid var(--pkmn-fire);
-  color: var(--pkmn-fire);
+  border: 1px solid var(--icon-fire);
+  color: var(--icon-fire);
 }
 #type-1 button#btn-fire2.disabled,
 #type-2 button#btn-fire2.disabled {
@@ -1423,24 +1423,24 @@ footer ul li a i {
 }
 #type-1 button#btn-fire2:not(.disabled):hover,
 #type-2 button#btn-fire2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-fire);
-  background-color: var(--pkmn-fire);
+  box-shadow: 0 0 7.5px var(--icon-fire);
+  background-color: var(--icon-fire);
   color: var(--white);
 }
 #type-1 button#btn-fire2:not(.disabled).active,
 #type-2 button#btn-fire2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-fire), 0 0 2rem var(--pkmn-fire);
-  background-color: var(--pkmn-fire);
+  box-shadow: 0 0 7.5px var(--icon-fire), 0 0 2rem var(--icon-fire);
+  background-color: var(--icon-fire);
   color: var(--white);
 }
 #type-1 button#btn-fire2:not(.disabled).active:hover,
 #type-2 button#btn-fire2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-fire);
+  box-shadow: 0 0 5rem var(--icon-fire);
 }
 #type-1 button#btn-fighting1,
 #type-2 button#btn-fighting1 {
-  border: 1px solid var(--pkmn-fighting);
-  color: var(--pkmn-fighting);
+  border: 1px solid var(--icon-fighting);
+  color: var(--icon-fighting);
 }
 #type-1 button#btn-fighting1.disabled,
 #type-2 button#btn-fighting1.disabled {
@@ -1448,24 +1448,24 @@ footer ul li a i {
 }
 #type-1 button#btn-fighting1:not(.disabled):hover,
 #type-2 button#btn-fighting1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-fighting);
-  background-color: var(--pkmn-fighting);
+  box-shadow: 0 0 7.5px var(--icon-fighting);
+  background-color: var(--icon-fighting);
   color: var(--white);
 }
 #type-1 button#btn-fighting1:not(.disabled).active,
 #type-2 button#btn-fighting1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-fighting), 0 0 2rem var(--pkmn-fighting);
-  background-color: var(--pkmn-fighting);
+  box-shadow: 0 0 7.5px var(--icon-fighting), 0 0 2rem var(--icon-fighting);
+  background-color: var(--icon-fighting);
   color: var(--white);
 }
 #type-1 button#btn-fighting1:not(.disabled).active:hover,
 #type-2 button#btn-fighting1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-fighting);
+  box-shadow: 0 0 5rem var(--icon-fighting);
 }
 #type-1 button#btn-fighting2,
 #type-2 button#btn-fighting2 {
-  border: 1px solid var(--pkmn-fighting);
-  color: var(--pkmn-fighting);
+  border: 1px solid var(--icon-fighting);
+  color: var(--icon-fighting);
 }
 #type-1 button#btn-fighting2.disabled,
 #type-2 button#btn-fighting2.disabled {
@@ -1473,24 +1473,24 @@ footer ul li a i {
 }
 #type-1 button#btn-fighting2:not(.disabled):hover,
 #type-2 button#btn-fighting2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-fighting);
-  background-color: var(--pkmn-fighting);
+  box-shadow: 0 0 7.5px var(--icon-fighting);
+  background-color: var(--icon-fighting);
   color: var(--white);
 }
 #type-1 button#btn-fighting2:not(.disabled).active,
 #type-2 button#btn-fighting2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-fighting), 0 0 2rem var(--pkmn-fighting);
-  background-color: var(--pkmn-fighting);
+  box-shadow: 0 0 7.5px var(--icon-fighting), 0 0 2rem var(--icon-fighting);
+  background-color: var(--icon-fighting);
   color: var(--white);
 }
 #type-1 button#btn-fighting2:not(.disabled).active:hover,
 #type-2 button#btn-fighting2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-fighting);
+  box-shadow: 0 0 5rem var(--icon-fighting);
 }
 #type-1 button#btn-steel1,
 #type-2 button#btn-steel1 {
-  border: 1px solid var(--pkmn-steel);
-  color: var(--pkmn-steel);
+  border: 1px solid var(--icon-steel);
+  color: var(--icon-steel);
 }
 #type-1 button#btn-steel1.disabled,
 #type-2 button#btn-steel1.disabled {
@@ -1498,24 +1498,24 @@ footer ul li a i {
 }
 #type-1 button#btn-steel1:not(.disabled):hover,
 #type-2 button#btn-steel1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-steel);
-  background-color: var(--pkmn-steel);
+  box-shadow: 0 0 7.5px var(--icon-steel);
+  background-color: var(--icon-steel);
   color: black;
 }
 #type-1 button#btn-steel1:not(.disabled).active,
 #type-2 button#btn-steel1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-steel), 0 0 2rem var(--pkmn-steel);
-  background-color: var(--pkmn-steel);
+  box-shadow: 0 0 7.5px var(--icon-steel), 0 0 2rem var(--icon-steel);
+  background-color: var(--icon-steel);
   color: black;
 }
 #type-1 button#btn-steel1:not(.disabled).active:hover,
 #type-2 button#btn-steel1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-steel);
+  box-shadow: 0 0 5rem var(--icon-steel);
 }
 #type-1 button#btn-steel2,
 #type-2 button#btn-steel2 {
-  border: 1px solid var(--pkmn-steel);
-  color: var(--pkmn-steel);
+  border: 1px solid var(--icon-steel);
+  color: var(--icon-steel);
 }
 #type-1 button#btn-steel2.disabled,
 #type-2 button#btn-steel2.disabled {
@@ -1523,24 +1523,24 @@ footer ul li a i {
 }
 #type-1 button#btn-steel2:not(.disabled):hover,
 #type-2 button#btn-steel2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-steel);
-  background-color: var(--pkmn-steel);
+  box-shadow: 0 0 7.5px var(--icon-steel);
+  background-color: var(--icon-steel);
   color: black;
 }
 #type-1 button#btn-steel2:not(.disabled).active,
 #type-2 button#btn-steel2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-steel), 0 0 2rem var(--pkmn-steel);
-  background-color: var(--pkmn-steel);
+  box-shadow: 0 0 7.5px var(--icon-steel), 0 0 2rem var(--icon-steel);
+  background-color: var(--icon-steel);
   color: black;
 }
 #type-1 button#btn-steel2:not(.disabled).active:hover,
 #type-2 button#btn-steel2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-steel);
+  box-shadow: 0 0 5rem var(--icon-steel);
 }
 #type-1 button#btn-psychic1,
 #type-2 button#btn-psychic1 {
-  border: 1px solid var(--pkmn-psychic);
-  color: var(--pkmn-psychic);
+  border: 1px solid var(--icon-psychic);
+  color: var(--icon-psychic);
 }
 #type-1 button#btn-psychic1.disabled,
 #type-2 button#btn-psychic1.disabled {
@@ -1548,24 +1548,24 @@ footer ul li a i {
 }
 #type-1 button#btn-psychic1:not(.disabled):hover,
 #type-2 button#btn-psychic1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-psychic);
-  background-color: var(--pkmn-psychic);
+  box-shadow: 0 0 7.5px var(--icon-psychic);
+  background-color: var(--icon-psychic);
   color: var(--white);
 }
 #type-1 button#btn-psychic1:not(.disabled).active,
 #type-2 button#btn-psychic1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-psychic), 0 0 2rem var(--pkmn-psychic);
-  background-color: var(--pkmn-psychic);
+  box-shadow: 0 0 7.5px var(--icon-psychic), 0 0 2rem var(--icon-psychic);
+  background-color: var(--icon-psychic);
   color: var(--white);
 }
 #type-1 button#btn-psychic1:not(.disabled).active:hover,
 #type-2 button#btn-psychic1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-psychic);
+  box-shadow: 0 0 5rem var(--icon-psychic);
 }
 #type-1 button#btn-psychic2,
 #type-2 button#btn-psychic2 {
-  border: 1px solid var(--pkmn-psychic);
-  color: var(--pkmn-psychic);
+  border: 1px solid var(--icon-psychic);
+  color: var(--icon-psychic);
 }
 #type-1 button#btn-psychic2.disabled,
 #type-2 button#btn-psychic2.disabled {
@@ -1573,24 +1573,24 @@ footer ul li a i {
 }
 #type-1 button#btn-psychic2:not(.disabled):hover,
 #type-2 button#btn-psychic2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-psychic);
-  background-color: var(--pkmn-psychic);
+  box-shadow: 0 0 7.5px var(--icon-psychic);
+  background-color: var(--icon-psychic);
   color: var(--white);
 }
 #type-1 button#btn-psychic2:not(.disabled).active,
 #type-2 button#btn-psychic2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-psychic), 0 0 2rem var(--pkmn-psychic);
-  background-color: var(--pkmn-psychic);
+  box-shadow: 0 0 7.5px var(--icon-psychic), 0 0 2rem var(--icon-psychic);
+  background-color: var(--icon-psychic);
   color: var(--white);
 }
 #type-1 button#btn-psychic2:not(.disabled).active:hover,
 #type-2 button#btn-psychic2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-psychic);
+  box-shadow: 0 0 5rem var(--icon-psychic);
 }
 #type-1 button#btn-fairy1,
 #type-2 button#btn-fairy1 {
-  border: 1px solid var(--pkmn-fairy);
-  color: var(--pkmn-fairy);
+  border: 1px solid var(--icon-fairy);
+  color: var(--icon-fairy);
 }
 #type-1 button#btn-fairy1.disabled,
 #type-2 button#btn-fairy1.disabled {
@@ -1598,24 +1598,24 @@ footer ul li a i {
 }
 #type-1 button#btn-fairy1:not(.disabled):hover,
 #type-2 button#btn-fairy1:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-fairy);
-  background-color: var(--pkmn-fairy);
+  box-shadow: 0 0 7.5px var(--icon-fairy);
+  background-color: var(--icon-fairy);
   color: var(--white);
 }
 #type-1 button#btn-fairy1:not(.disabled).active,
 #type-2 button#btn-fairy1:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-fairy), 0 0 2rem var(--pkmn-fairy);
-  background-color: var(--pkmn-fairy);
+  box-shadow: 0 0 7.5px var(--icon-fairy), 0 0 2rem var(--icon-fairy);
+  background-color: var(--icon-fairy);
   color: var(--white);
 }
 #type-1 button#btn-fairy1:not(.disabled).active:hover,
 #type-2 button#btn-fairy1:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-fairy);
+  box-shadow: 0 0 5rem var(--icon-fairy);
 }
 #type-1 button#btn-fairy2,
 #type-2 button#btn-fairy2 {
-  border: 1px solid var(--pkmn-fairy);
-  color: var(--pkmn-fairy);
+  border: 1px solid var(--icon-fairy);
+  color: var(--icon-fairy);
 }
 #type-1 button#btn-fairy2.disabled,
 #type-2 button#btn-fairy2.disabled {
@@ -1623,26 +1623,26 @@ footer ul li a i {
 }
 #type-1 button#btn-fairy2:not(.disabled):hover,
 #type-2 button#btn-fairy2:not(.disabled):hover {
-  box-shadow: 0 0 7.5px var(--pkmn-fairy);
-  background-color: var(--pkmn-fairy);
+  box-shadow: 0 0 7.5px var(--icon-fairy);
+  background-color: var(--icon-fairy);
   color: var(--white);
 }
 #type-1 button#btn-fairy2:not(.disabled).active,
 #type-2 button#btn-fairy2:not(.disabled).active {
-  box-shadow: 0 0 7.5px var(--pkmn-fairy), 0 0 2rem var(--pkmn-fairy);
-  background-color: var(--pkmn-fairy);
+  box-shadow: 0 0 7.5px var(--icon-fairy), 0 0 2rem var(--icon-fairy);
+  background-color: var(--icon-fairy);
   color: var(--white);
 }
 #type-1 button#btn-fairy2:not(.disabled).active:hover,
 #type-2 button#btn-fairy2:not(.disabled).active:hover {
-  box-shadow: 0 0 5rem var(--pkmn-fairy);
+  box-shadow: 0 0 5rem var(--icon-fairy);
 }
 
 #type-effectiveness {
   text-align: center;
 }
 #type-effectiveness div.dragon-caption {
-  background-color: var(--pkmn-dragon);
+  background-color: var(--icon-dragon);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1651,7 +1651,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.ghost-caption {
-  background-color: var(--pkmn-ghost);
+  background-color: var(--icon-ghost);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1660,7 +1660,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.ground-caption {
-  background-color: var(--pkmn-ground);
+  background-color: var(--icon-ground);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: black;
@@ -1669,7 +1669,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.flying-caption {
-  background-color: var(--pkmn-flying);
+  background-color: var(--icon-flying);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1678,7 +1678,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.poison-caption {
-  background-color: var(--pkmn-poison);
+  background-color: var(--icon-poison);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1687,7 +1687,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.bug-caption {
-  background-color: var(--pkmn-bug);
+  background-color: var(--icon-bug);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: black;
@@ -1696,7 +1696,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.water-caption {
-  background-color: var(--pkmn-water);
+  background-color: var(--icon-water);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1705,7 +1705,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.electric-caption {
-  background-color: var(--pkmn-electric);
+  background-color: var(--icon-electric);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: black;
@@ -1714,7 +1714,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.rock-caption {
-  background-color: var(--pkmn-rock);
+  background-color: var(--icon-rock);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1723,7 +1723,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.grass-caption {
-  background-color: var(--pkmn-grass);
+  background-color: var(--icon-grass);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: black;
@@ -1732,7 +1732,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.dark-caption {
-  background-color: var(--pkmn-dark);
+  background-color: var(--icon-dark);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1741,7 +1741,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.ice-caption {
-  background-color: var(--pkmn-ice);
+  background-color: var(--icon-ice);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: black;
@@ -1750,7 +1750,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.normal-caption {
-  background-color: var(--pkmn-normal);
+  background-color: var(--icon-normal);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1759,7 +1759,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.fire-caption {
-  background-color: var(--pkmn-fire);
+  background-color: var(--icon-fire);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1768,7 +1768,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.fighting-caption {
-  background-color: var(--pkmn-fighting);
+  background-color: var(--icon-fighting);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1777,7 +1777,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.steel-caption {
-  background-color: var(--pkmn-steel);
+  background-color: var(--icon-steel);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: black;
@@ -1786,7 +1786,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.psychic-caption {
-  background-color: var(--pkmn-psychic);
+  background-color: var(--icon-psychic);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1795,7 +1795,7 @@ footer ul li a i {
   font-weight: 500;
 }
 #type-effectiveness div.fairy-caption {
-  background-color: var(--pkmn-fairy);
+  background-color: var(--icon-fairy);
   border-radius: 1rem;
   margin: 0 0.25rem;
   color: var(--white);
@@ -1813,58 +1813,58 @@ footer ul li a i {
   margin: 0 2rem;
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-dragon {
-  box-shadow: 0 0 0.5rem var(--pkmn-dragon), 0 0 1rem var(--pkmn-dragon), 0 0 2rem var(--pkmn-dragon), 0 0 3rem var(--pkmn-dragon), 0 0 5rem var(--pkmn-dragon);
+  box-shadow: 0 0 0.5rem var(--icon-dragon), 0 0 1rem var(--icon-dragon), 0 0 2rem var(--icon-dragon), 0 0 3rem var(--icon-dragon), 0 0 5rem var(--icon-dragon);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-ghost {
-  box-shadow: 0 0 0.5rem var(--pkmn-ghost), 0 0 1rem var(--pkmn-ghost), 0 0 2rem var(--pkmn-ghost), 0 0 3rem var(--pkmn-ghost), 0 0 5rem var(--pkmn-ghost);
+  box-shadow: 0 0 0.5rem var(--icon-ghost), 0 0 1rem var(--icon-ghost), 0 0 2rem var(--icon-ghost), 0 0 3rem var(--icon-ghost), 0 0 5rem var(--icon-ghost);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-ground {
-  box-shadow: 0 0 0.5rem var(--pkmn-ground), 0 0 1rem var(--pkmn-ground), 0 0 2rem var(--pkmn-ground), 0 0 3rem var(--pkmn-ground), 0 0 5rem var(--pkmn-ground);
+  box-shadow: 0 0 0.5rem var(--icon-ground), 0 0 1rem var(--icon-ground), 0 0 2rem var(--icon-ground), 0 0 3rem var(--icon-ground), 0 0 5rem var(--icon-ground);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-flying {
-  box-shadow: 0 0 0.5rem var(--pkmn-flying), 0 0 1rem var(--pkmn-flying), 0 0 2rem var(--pkmn-flying), 0 0 3rem var(--pkmn-flying), 0 0 5rem var(--pkmn-flying);
+  box-shadow: 0 0 0.5rem var(--icon-flying), 0 0 1rem var(--icon-flying), 0 0 2rem var(--icon-flying), 0 0 3rem var(--icon-flying), 0 0 5rem var(--icon-flying);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-poison {
-  box-shadow: 0 0 0.5rem var(--pkmn-poison), 0 0 1rem var(--pkmn-poison), 0 0 2rem var(--pkmn-poison), 0 0 3rem var(--pkmn-poison), 0 0 5rem var(--pkmn-poison);
+  box-shadow: 0 0 0.5rem var(--icon-poison), 0 0 1rem var(--icon-poison), 0 0 2rem var(--icon-poison), 0 0 3rem var(--icon-poison), 0 0 5rem var(--icon-poison);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-bug {
-  box-shadow: 0 0 0.5rem var(--pkmn-bug), 0 0 1rem var(--pkmn-bug), 0 0 2rem var(--pkmn-bug), 0 0 3rem var(--pkmn-bug), 0 0 5rem var(--pkmn-bug);
+  box-shadow: 0 0 0.5rem var(--icon-bug), 0 0 1rem var(--icon-bug), 0 0 2rem var(--icon-bug), 0 0 3rem var(--icon-bug), 0 0 5rem var(--icon-bug);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-water {
-  box-shadow: 0 0 0.5rem var(--pkmn-water), 0 0 1rem var(--pkmn-water), 0 0 2rem var(--pkmn-water), 0 0 3rem var(--pkmn-water), 0 0 5rem var(--pkmn-water);
+  box-shadow: 0 0 0.5rem var(--icon-water), 0 0 1rem var(--icon-water), 0 0 2rem var(--icon-water), 0 0 3rem var(--icon-water), 0 0 5rem var(--icon-water);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-electric {
-  box-shadow: 0 0 0.5rem var(--pkmn-electric), 0 0 1rem var(--pkmn-electric), 0 0 2rem var(--pkmn-electric), 0 0 3rem var(--pkmn-electric), 0 0 5rem var(--pkmn-electric);
+  box-shadow: 0 0 0.5rem var(--icon-electric), 0 0 1rem var(--icon-electric), 0 0 2rem var(--icon-electric), 0 0 3rem var(--icon-electric), 0 0 5rem var(--icon-electric);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-rock {
-  box-shadow: 0 0 0.5rem var(--pkmn-rock), 0 0 1rem var(--pkmn-rock), 0 0 2rem var(--pkmn-rock), 0 0 3rem var(--pkmn-rock), 0 0 5rem var(--pkmn-rock);
+  box-shadow: 0 0 0.5rem var(--icon-rock), 0 0 1rem var(--icon-rock), 0 0 2rem var(--icon-rock), 0 0 3rem var(--icon-rock), 0 0 5rem var(--icon-rock);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-grass {
-  box-shadow: 0 0 0.5rem var(--pkmn-grass), 0 0 1rem var(--pkmn-grass), 0 0 2rem var(--pkmn-grass), 0 0 3rem var(--pkmn-grass), 0 0 5rem var(--pkmn-grass);
+  box-shadow: 0 0 0.5rem var(--icon-grass), 0 0 1rem var(--icon-grass), 0 0 2rem var(--icon-grass), 0 0 3rem var(--icon-grass), 0 0 5rem var(--icon-grass);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-dark {
-  box-shadow: 0 0 0.5rem var(--pkmn-dark), 0 0 1rem var(--pkmn-dark), 0 0 2rem var(--pkmn-dark), 0 0 3rem var(--pkmn-dark), 0 0 5rem var(--pkmn-dark);
+  box-shadow: 0 0 0.5rem var(--icon-dark), 0 0 1rem var(--icon-dark), 0 0 2rem var(--icon-dark), 0 0 3rem var(--icon-dark), 0 0 5rem var(--icon-dark);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-ice {
-  box-shadow: 0 0 0.5rem var(--pkmn-ice), 0 0 1rem var(--pkmn-ice), 0 0 2rem var(--pkmn-ice), 0 0 3rem var(--pkmn-ice), 0 0 5rem var(--pkmn-ice);
+  box-shadow: 0 0 0.5rem var(--icon-ice), 0 0 1rem var(--icon-ice), 0 0 2rem var(--icon-ice), 0 0 3rem var(--icon-ice), 0 0 5rem var(--icon-ice);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-normal {
-  box-shadow: 0 0 0.5rem var(--pkmn-normal), 0 0 1rem var(--pkmn-normal), 0 0 2rem var(--pkmn-normal), 0 0 3rem var(--pkmn-normal), 0 0 5rem var(--pkmn-normal);
+  box-shadow: 0 0 0.5rem var(--icon-normal), 0 0 1rem var(--icon-normal), 0 0 2rem var(--icon-normal), 0 0 3rem var(--icon-normal), 0 0 5rem var(--icon-normal);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-fire {
-  box-shadow: 0 0 0.5rem var(--pkmn-fire), 0 0 1rem var(--pkmn-fire), 0 0 2rem var(--pkmn-fire), 0 0 3rem var(--pkmn-fire), 0 0 5rem var(--pkmn-fire);
+  box-shadow: 0 0 0.5rem var(--icon-fire), 0 0 1rem var(--icon-fire), 0 0 2rem var(--icon-fire), 0 0 3rem var(--icon-fire), 0 0 5rem var(--icon-fire);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-fighting {
-  box-shadow: 0 0 0.5rem var(--pkmn-fighting), 0 0 1rem var(--pkmn-fighting), 0 0 2rem var(--pkmn-fighting), 0 0 3rem var(--pkmn-fighting), 0 0 5rem var(--pkmn-fighting);
+  box-shadow: 0 0 0.5rem var(--icon-fighting), 0 0 1rem var(--icon-fighting), 0 0 2rem var(--icon-fighting), 0 0 3rem var(--icon-fighting), 0 0 5rem var(--icon-fighting);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-steel {
-  box-shadow: 0 0 0.5rem var(--pkmn-steel), 0 0 1rem var(--pkmn-steel), 0 0 2rem var(--pkmn-steel), 0 0 3rem var(--pkmn-steel), 0 0 5rem var(--pkmn-steel);
+  box-shadow: 0 0 0.5rem var(--icon-steel), 0 0 1rem var(--icon-steel), 0 0 2rem var(--icon-steel), 0 0 3rem var(--icon-steel), 0 0 5rem var(--icon-steel);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-psychic {
-  box-shadow: 0 0 0.5rem var(--pkmn-psychic), 0 0 1rem var(--pkmn-psychic), 0 0 2rem var(--pkmn-psychic), 0 0 3rem var(--pkmn-psychic), 0 0 5rem var(--pkmn-psychic);
+  box-shadow: 0 0 0.5rem var(--icon-psychic), 0 0 1rem var(--icon-psychic), 0 0 2rem var(--icon-psychic), 0 0 3rem var(--icon-psychic), 0 0 5rem var(--icon-psychic);
 }
 #type-effectiveness div.super-high-effect .poke-icon.poke-i-fairy {
-  box-shadow: 0 0 0.5rem var(--pkmn-fairy), 0 0 1rem var(--pkmn-fairy), 0 0 2rem var(--pkmn-fairy), 0 0 3rem var(--pkmn-fairy), 0 0 5rem var(--pkmn-fairy);
+  box-shadow: 0 0 0.5rem var(--icon-fairy), 0 0 1rem var(--icon-fairy), 0 0 2rem var(--icon-fairy), 0 0 3rem var(--icon-fairy), 0 0 5rem var(--icon-fairy);
 }
 #type-effectiveness .poke-icon {
   margin: 0.75rem;
@@ -1878,130 +1878,130 @@ footer ul li a i {
   transition: 0.2s all;
 }
 #type-effectiveness .poke-icon.poke-i-dragon {
-  background: var(--pkmn-dragon);
-  box-shadow: 0 0 1.5rem var(--pkmn-dragon);
+  background: var(--icon-dragon);
+  box-shadow: 0 0 1.5rem var(--icon-dragon);
 }
 #type-effectiveness .poke-icon.poke-i-dragon:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-dragon), 0 0 2rem var(--pkmn-dragon);
+  box-shadow: 0 0 1.5rem var(--icon-dragon), 0 0 2rem var(--icon-dragon);
 }
 #type-effectiveness .poke-icon.poke-i-ghost {
-  background: var(--pkmn-ghost);
-  box-shadow: 0 0 1.5rem var(--pkmn-ghost);
+  background: var(--icon-ghost);
+  box-shadow: 0 0 1.5rem var(--icon-ghost);
 }
 #type-effectiveness .poke-icon.poke-i-ghost:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-ghost), 0 0 2rem var(--pkmn-ghost);
+  box-shadow: 0 0 1.5rem var(--icon-ghost), 0 0 2rem var(--icon-ghost);
 }
 #type-effectiveness .poke-icon.poke-i-ground {
-  background: var(--pkmn-ground);
-  box-shadow: 0 0 1.5rem var(--pkmn-ground);
+  background: var(--icon-ground);
+  box-shadow: 0 0 1.5rem var(--icon-ground);
 }
 #type-effectiveness .poke-icon.poke-i-ground:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-ground), 0 0 2rem var(--pkmn-ground);
+  box-shadow: 0 0 1.5rem var(--icon-ground), 0 0 2rem var(--icon-ground);
 }
 #type-effectiveness .poke-icon.poke-i-flying {
-  background: var(--pkmn-flying);
-  box-shadow: 0 0 1.5rem var(--pkmn-flying);
+  background: var(--icon-flying);
+  box-shadow: 0 0 1.5rem var(--icon-flying);
 }
 #type-effectiveness .poke-icon.poke-i-flying:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-flying), 0 0 2rem var(--pkmn-flying);
+  box-shadow: 0 0 1.5rem var(--icon-flying), 0 0 2rem var(--icon-flying);
 }
 #type-effectiveness .poke-icon.poke-i-poison {
-  background: var(--pkmn-poison);
-  box-shadow: 0 0 1.5rem var(--pkmn-poison);
+  background: var(--icon-poison);
+  box-shadow: 0 0 1.5rem var(--icon-poison);
 }
 #type-effectiveness .poke-icon.poke-i-poison:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-poison), 0 0 2rem var(--pkmn-poison);
+  box-shadow: 0 0 1.5rem var(--icon-poison), 0 0 2rem var(--icon-poison);
 }
 #type-effectiveness .poke-icon.poke-i-bug {
-  background: var(--pkmn-bug);
-  box-shadow: 0 0 1.5rem var(--pkmn-bug);
+  background: var(--icon-bug);
+  box-shadow: 0 0 1.5rem var(--icon-bug);
 }
 #type-effectiveness .poke-icon.poke-i-bug:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-bug), 0 0 2rem var(--pkmn-bug);
+  box-shadow: 0 0 1.5rem var(--icon-bug), 0 0 2rem var(--icon-bug);
 }
 #type-effectiveness .poke-icon.poke-i-water {
-  background: var(--pkmn-water);
-  box-shadow: 0 0 1.5rem var(--pkmn-water);
+  background: var(--icon-water);
+  box-shadow: 0 0 1.5rem var(--icon-water);
 }
 #type-effectiveness .poke-icon.poke-i-water:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-water), 0 0 2rem var(--pkmn-water);
+  box-shadow: 0 0 1.5rem var(--icon-water), 0 0 2rem var(--icon-water);
 }
 #type-effectiveness .poke-icon.poke-i-electric {
-  background: var(--pkmn-electric);
-  box-shadow: 0 0 1.5rem var(--pkmn-electric);
+  background: var(--icon-electric);
+  box-shadow: 0 0 1.5rem var(--icon-electric);
 }
 #type-effectiveness .poke-icon.poke-i-electric:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-electric), 0 0 2rem var(--pkmn-electric);
+  box-shadow: 0 0 1.5rem var(--icon-electric), 0 0 2rem var(--icon-electric);
 }
 #type-effectiveness .poke-icon.poke-i-rock {
-  background: var(--pkmn-rock);
-  box-shadow: 0 0 1.5rem var(--pkmn-rock);
+  background: var(--icon-rock);
+  box-shadow: 0 0 1.5rem var(--icon-rock);
 }
 #type-effectiveness .poke-icon.poke-i-rock:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-rock), 0 0 2rem var(--pkmn-rock);
+  box-shadow: 0 0 1.5rem var(--icon-rock), 0 0 2rem var(--icon-rock);
 }
 #type-effectiveness .poke-icon.poke-i-grass {
-  background: var(--pkmn-grass);
-  box-shadow: 0 0 1.5rem var(--pkmn-grass);
+  background: var(--icon-grass);
+  box-shadow: 0 0 1.5rem var(--icon-grass);
 }
 #type-effectiveness .poke-icon.poke-i-grass:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-grass), 0 0 2rem var(--pkmn-grass);
+  box-shadow: 0 0 1.5rem var(--icon-grass), 0 0 2rem var(--icon-grass);
 }
 #type-effectiveness .poke-icon.poke-i-dark {
-  background: var(--pkmn-dark);
-  box-shadow: 0 0 1.5rem var(--pkmn-dark);
+  background: var(--icon-dark);
+  box-shadow: 0 0 1.5rem var(--icon-dark);
 }
 #type-effectiveness .poke-icon.poke-i-dark:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-dark), 0 0 2rem var(--pkmn-dark);
+  box-shadow: 0 0 1.5rem var(--icon-dark), 0 0 2rem var(--icon-dark);
 }
 #type-effectiveness .poke-icon.poke-i-ice {
-  background: var(--pkmn-ice);
-  box-shadow: 0 0 1.5rem var(--pkmn-ice);
+  background: var(--icon-ice);
+  box-shadow: 0 0 1.5rem var(--icon-ice);
 }
 #type-effectiveness .poke-icon.poke-i-ice:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-ice), 0 0 2rem var(--pkmn-ice);
+  box-shadow: 0 0 1.5rem var(--icon-ice), 0 0 2rem var(--icon-ice);
 }
 #type-effectiveness .poke-icon.poke-i-normal {
-  background: var(--pkmn-normal);
-  box-shadow: 0 0 1.5rem var(--pkmn-normal);
+  background: var(--icon-normal);
+  box-shadow: 0 0 1.5rem var(--icon-normal);
 }
 #type-effectiveness .poke-icon.poke-i-normal:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-normal), 0 0 2rem var(--pkmn-normal);
+  box-shadow: 0 0 1.5rem var(--icon-normal), 0 0 2rem var(--icon-normal);
 }
 #type-effectiveness .poke-icon.poke-i-fire {
-  background: var(--pkmn-fire);
-  box-shadow: 0 0 1.5rem var(--pkmn-fire);
+  background: var(--icon-fire);
+  box-shadow: 0 0 1.5rem var(--icon-fire);
 }
 #type-effectiveness .poke-icon.poke-i-fire:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-fire), 0 0 2rem var(--pkmn-fire);
+  box-shadow: 0 0 1.5rem var(--icon-fire), 0 0 2rem var(--icon-fire);
 }
 #type-effectiveness .poke-icon.poke-i-fighting {
-  background: var(--pkmn-fighting);
-  box-shadow: 0 0 1.5rem var(--pkmn-fighting);
+  background: var(--icon-fighting);
+  box-shadow: 0 0 1.5rem var(--icon-fighting);
 }
 #type-effectiveness .poke-icon.poke-i-fighting:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-fighting), 0 0 2rem var(--pkmn-fighting);
+  box-shadow: 0 0 1.5rem var(--icon-fighting), 0 0 2rem var(--icon-fighting);
 }
 #type-effectiveness .poke-icon.poke-i-steel {
-  background: var(--pkmn-steel);
-  box-shadow: 0 0 1.5rem var(--pkmn-steel);
+  background: var(--icon-steel);
+  box-shadow: 0 0 1.5rem var(--icon-steel);
 }
 #type-effectiveness .poke-icon.poke-i-steel:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-steel), 0 0 2rem var(--pkmn-steel);
+  box-shadow: 0 0 1.5rem var(--icon-steel), 0 0 2rem var(--icon-steel);
 }
 #type-effectiveness .poke-icon.poke-i-psychic {
-  background: var(--pkmn-psychic);
-  box-shadow: 0 0 1.5rem var(--pkmn-psychic);
+  background: var(--icon-psychic);
+  box-shadow: 0 0 1.5rem var(--icon-psychic);
 }
 #type-effectiveness .poke-icon.poke-i-psychic:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-psychic), 0 0 2rem var(--pkmn-psychic);
+  box-shadow: 0 0 1.5rem var(--icon-psychic), 0 0 2rem var(--icon-psychic);
 }
 #type-effectiveness .poke-icon.poke-i-fairy {
-  background: var(--pkmn-fairy);
-  box-shadow: 0 0 1.5rem var(--pkmn-fairy);
+  background: var(--icon-fairy);
+  box-shadow: 0 0 1.5rem var(--icon-fairy);
 }
 #type-effectiveness .poke-icon.poke-i-fairy:hover {
-  box-shadow: 0 0 1.5rem var(--pkmn-fairy), 0 0 2rem var(--pkmn-fairy);
+  box-shadow: 0 0 1.5rem var(--icon-fairy), 0 0 2rem var(--icon-fairy);
 }
 #type-effectiveness .poke-icon img {
   width: 60%;
