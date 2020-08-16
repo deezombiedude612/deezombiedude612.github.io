@@ -13,6 +13,7 @@
 		<!-- Shortcut Icon -->
 		<link href="../assets/images/hhicon.png" rel="shortcut icon">
 
+
 		<!-- Bootstrap CSS -->
 		<link href="../assets/bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,6 +26,7 @@
 	</head>
 
 	<body>
+
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navi">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="../">
@@ -93,6 +95,17 @@
 						<!-- /div.card.bg-transparent -->
 					</div>
 					<!-- /div#type-selection -->
+
+					<div class="text-center" id="language-selection">
+						<button class="btn btn-sm btn-outline-light active" id="btn-eng"
+							onclick="languageChange(0)">ENG</button>
+						<button class="btn btn-sm btn-outline-light" id="btn-jpn"
+							onclick="languageChange(1)">JPN</button>
+						<button class="btn btn-sm btn-outline-light" id="btn-chs"
+							onclick="languageChange(3)">CHS</button>
+						<button class="btn btn-sm btn-outline-light" id="btn-cht"
+							onclick="languageChange(4)">CHT</button>
+					</div>
 
 					<hr>
 					<div class="row" id="type-effectiveness">
