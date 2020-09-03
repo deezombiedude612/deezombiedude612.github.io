@@ -32,12 +32,13 @@ for (let index = 0; index < week_dates.length; ++index) {
 			+ week_dates[index][1].getDate() + " " + dMonth_2 + " " + week_dates[index][1].getFullYear()
 		);
 
-		if (index + 2 < 10) {		// Week 2 to 9
+		if (index + 2 != 10) {		// Week 2 to 9
+			// if (index + 2 < 10) {		// Week 2 to 9
 			if (index % 2 === 0) week_decide("2", "1");
 			else week_decide("1", "2");
-		} else if (index + 2 > 10) {	// Week 11 to 14
-			if (index % 2 === 0) week_decide("1", "2");
-			else week_decide("2", "1");
+			// } else if (index + 2 > 10) {	// Week 11 to 14
+			// 	if (index % 2 === 0) week_decide("1", "2");
+			// 	else week_decide("2", "1");
 		} else {
 			$("#decide_f2f").html("");
 			$("#decide_online").html("1 & 2 (e-Learning Week)");
