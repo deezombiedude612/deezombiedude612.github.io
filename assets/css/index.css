@@ -726,8 +726,10 @@ span.duration {
 }
 
 .badge {
-  background-color: rgba(60, 60, 60, 0.95);
   font-weight: 500;
+}
+.badge:not(.badge-primary):not(.badge-secondary):not(.badge-success):not(.badge-danger):not(.badge-warning):not(.badge-info):not(.badge-light):not(.badge-dark) {
+  background-color: rgba(60, 60, 60, 0.95);
 }
 
 .caption {
