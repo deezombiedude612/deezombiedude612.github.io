@@ -1,3 +1,177 @@
+const session1 = [
+	[
+		// group 1 201908 intake
+		["IMAN HAFIZ BIN KHAIRUL ANUAR", 1],
+		// group 1 202001 intake
+		["ABDUL LATIF MOHAMED IRFAN FAZLANI", 1],
+		["AMIR HAZIQ BIN OTHMAN", 1],
+		["CHEAH BING XIAN", 1],
+		["CHELSEA LIAWWANDY", 1],
+		["DYLAN TAN CHING ZHE", 1],
+		["HUMERA SALEH", 1],
+		["JOSHUA MARK NAIR", 1],
+		["KAVIN RAJ A/L PARANTHAMAN", 1],
+		["KIM KI MIN", 1],
+		["M M YASIN BIN SHAFIQ", 1],
+		["MAHOMED AQEEL AHMED HUSSEIN", 0],
+		// group 1 202003 intake
+		["BRYAN TAN YEE KHAI", 1],
+		["DINESH PANIKKER A/L SIVADASAN", 1],
+	],
+	[
+		// group 2 201908 intake
+		["QUA YU HANG", 1],
+		// group 2 202001 intake
+		["MOHAMMED AHNAF TAJWAR", 1],
+		["MUHAMMAD NAFEEZ BIN NASSER", 1],
+		["MUHAMMAD RAKIBUR RAHMAN JIM", 1],
+		["NG KEN LIN", 1],
+		["NOWREEN ZAMAN BHUIYAN", 0],
+		["RYAN THIAGARAJAH", 1],
+		["SIN KIRK YI", 1],
+		["TAY JIA MING", 1],
+		["TI SHIN KIR", 1],
+		["WU DONG-YIU", 1],
+		["YEO ZHEN HAW", 1],
+		// group 2 202003 intake
+		["PRAVEEN RAJENDRAN", 1],
+	],
+];
+const session2 = [
+	[
+		// group 1 202001 intake
+		["BRIAN LEE KAR ONN", 1],
+		// group 1 202003 intake
+		["AMAL DANISH AZMAN", 0],
+		["BENJAMIN JESUDEAN DANIEL", 1],
+		["CHAI QI QIAN", 1],
+		["CHOO ZHENG", 1],
+		["HEW PUI EE", 1],
+		["IRFAN QURESHI BIN MOHAMAD ASLAM", 1],
+		["LAU JING EN", 1],
+		["LAU YUEN SHUEN", 1],
+		["LEOW HAN BIN", 1],
+		["LIAW WEI ZHEN", 1],
+		["MALCOLM TAN YU XUEN", 1],
+		["MATTHIAS NIVEN RAJ", 1],
+		["MUHAMMAD DANIEL BIN ZAKARIAH", 1],
+		["NG BOON BIN", 1],
+	],
+	[
+		// group 2 202003 intake
+		["NIVETHITHA S.LOGANATHAN", 1],
+		["NORMAN HENG CHON SHENG", 1],
+		["PONG JING XUAN", 1],
+		["RACHEL GOH WEN XUEN", 1],
+		["SIN JUN YU", 1],
+		["SURIA KUMAR A/L KARUPPANNAN", 1],
+		["TAJESWAR A/L RAMESH", 1],
+		["TAN JIA CHUN", 1],
+		["TAN JUN QI", 1],
+		["THEVENDRE A/L KUMARAN", 1],
+		["VALENTINE CHEPKORIR LANG'AT", 1],
+		["VETRI A/L THANABALAN", 1],
+		["YAP MING XUAN", 1],
+	],
+];
+const session3 = [
+	[
+		// group 1 202001 intake
+		["EDMUND GOH SEH BENG", 1],
+		// group 1 202003 intake
+		["ANG WEI JIA", 1],
+		["BRENDA NG ZHI YI", 1],
+		["CHEN XIAN NING", 1],
+		["CLIFF CHONG ZHENG-EU", 1],
+		["DAIYAN HAZEEQ BIN MOHAMED YAZMAN", 1],
+		["GOH SHEE XUAN", 1],
+		["MUHAMMAD ZIDAN BIN HAIROLLAH", 1],
+		["NATHANIEL TAY XIN RONG", 1],
+		["ARIANA NGAI SU WEI", 1],
+		["DANIEL HO KWOK PIN", 1],
+		["GAM CHEE XUAN", 1],
+		["HARRISH SUTHARSHAN", 1],
+		["HAZEEM BIN ASMIE", 1],
+		["HENG CHLOE", 1],
+		["HO SOOK KEI", 1],
+		["JEFFREY CHEOK JUN WAH", 1],
+	],
+	[
+		// group 2 202003 intake
+		["JESSLYN LAW HEW YAN", 1],
+		["KONG LI WEI", 1],
+		["LEE EE LING", 1],
+		["LIM YUK YING", 1],
+		["LOO ZEN HEI, DEXEL", 1],
+		["MUHAMMAD AMIRUL FIKRI BIN ABDUL HAFIZ", 1],
+		["NADHILA NAJWA BINTI SHAROLNIZAM", 1],
+		["ONG SHI HOONG", 1],
+		["OOI ZONG YUAN", 1],
+		["ROSHANTH A/L JEYARAJ", 1],
+		["SYED AMIEL MATEEN BIN SYED ADRIN PUTRA", 1],
+		["TAN KATHY", 1],
+		["TANG YI FONG", 1],
+		["TENG KWOK SANG", 1],
+		["WHOONG ZI WEI", 1],
+		["WONG CHEE WAI", 1],
+	],
+];
+
+function add_session_row(i, append1, index, studentName, append2) {
+	return `
+	<tr class="group-${i + 1}${append1}">
+	<td class="text-center">${index}</td>
+	<td>${studentName}${append2}</td>
+	<td class="text-center">${i + 1}</td>
+	</tr>`;
+}
+
+/* Add Session 1 Table Values */
+let append1 = "", append2 = "";
+let index = 1;
+for (let i = 0; i < session1.length; ++i) {
+	for (let student of session1[i]) {
+		append1 = "", append2 = "";	// reset append values
+
+		if (!student[1]) {
+			append1 = " table-primary text-dark font-weight-normal";
+			append2 = " (online)";
+		}
+		$("tbody#session-1-tbody").append(add_session_row(i, append1, index, student[0], append2));
+		++index;
+	}
+}
+
+/* Add Session 2 Table Values */
+index = 1;
+for (let i = 0; i < session2.length; ++i) {
+	for (let student of session2[i]) {
+		append1 = "", append2 = "";	// reset append values
+
+		if (!student[1]) {
+			append1 = " table-primary text-dark font-weight-normal";
+			append2 = " (online)";
+		}
+		$("tbody#session-2-tbody").append(add_session_row(i, append1, index, student[0], append2));
+		++index;
+	}
+}
+
+/* Add Session 3 Table Values */
+index = 1;
+for (let i = 0; i < session3.length; ++i) {
+	for (let student of session3[i]) {
+		append1 = "", append2 = "";	// reset append values
+
+		if (!student[1]) {
+			append1 = " table-primary text-dark font-weight-normal";
+			append2 = " (online)";
+		}
+		$("tbody#session-3-tbody").append(add_session_row(i, append1, index, student[0], append2));
+		++index;
+	}
+}
+
 function week_decide(f2f, online) {
 	$("#decide_f2f").html(f2f);
 	$("#decide_online").html(online);
