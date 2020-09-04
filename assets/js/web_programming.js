@@ -202,7 +202,8 @@ for (let index = 0; index < week_dates.length; ++index) {
 		let dMonth_1 = week_dates[index][0].toLocaleString('default', { month: 'long' });
 		let dMonth_2 = week_dates[index][1].toLocaleString('default', { month: 'long' });
 		$("#week_span").html(
-			week_dates[index][0].getDate() + " " + dMonth_1 + " " + week_dates[index][0].getFullYear() + " - "
+			"Week " + (index + 2) + ": "
+			+ week_dates[index][0].getDate() + " " + dMonth_1 + " " + week_dates[index][0].getFullYear() + " - "
 			+ week_dates[index][1].getDate() + " " + dMonth_2 + " " + week_dates[index][1].getFullYear()
 		);
 
