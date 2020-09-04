@@ -11,7 +11,7 @@ const session1 = [
 		["HUMERA SALEH", 1],
 		["JOSHUA MARK NAIR", 1],
 		["KAVIN RAJ A/L PARANTHAMAN", 1],
-		["KIM KI MIN", 1],
+		["KIM KI MIN", 0],
 		["M M YASIN BIN SHAFIQ", 1],
 		["MAHOMED AQEEL AHMED HUSSEIN", 0],
 		// group 1 202003 intake
