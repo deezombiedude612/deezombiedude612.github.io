@@ -198,7 +198,8 @@ const week_dates = [
 const currentDate = new Date();
 
 for (let index = 0; index < week_dates.length; ++index) {
-	if (currentDate >= week_dates[index][0] && currentDate <= week_dates[index][1]) {
+	// 1 day = 8.64e7 milliseconds
+	if (currentDate >= week_dates[index][0] && currentDate <= new Date(week_dates[index][1].valueOf() + 8.64e7)) {
 		let dMonth_1 = week_dates[index][0].toLocaleString('default', { month: 'long' });
 		let dMonth_2 = week_dates[index][1].toLocaleString('default', { month: 'long' });
 		$("#week_span").html(
