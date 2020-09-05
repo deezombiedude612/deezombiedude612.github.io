@@ -118,11 +118,13 @@ const session3 = [
 ];
 
 function add_session_row(i, append1, index, studentName, append2) {
+	groupAlphabet = (i % 2 === 0) ? 'A' : 'B';
+
 	return `
 	<tr class="group-${i + 1}${append1}">
 	<td class="text-center">${index}</td>
 	<td>${studentName}${append2}</td>
-	<td class="text-center">${i + 1}</td>
+	<td class="text-center">${i + 1} (${groupAlphabet})</td>
 	</tr>`;
 }
 
