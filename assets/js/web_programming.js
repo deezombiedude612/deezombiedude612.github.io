@@ -33,8 +33,6 @@ const session1 = [
 		["TI SHIN KIR", 1],
 		["WU DONG-YIU", 1],
 		["YEO ZHEN HAW", 1],
-		// group 2 202003 intake
-		["PRAVEEN RAJENDRAN", 1],
 	],
 ];
 const session2 = [
@@ -59,6 +57,7 @@ const session2 = [
 	],
 	[
 		// group 2 202003 intake
+		["PRAVEEN RAJENDRAN", 1],
 		["NIVETHITHA S.LOGANATHAN", 1],
 		["NORMAN HENG CHON SHENG", 1],
 		["PONG JING XUAN", 1],
