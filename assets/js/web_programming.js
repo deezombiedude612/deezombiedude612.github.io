@@ -17,7 +17,6 @@ const session1 = [
 		["NG KEN LIN", 1],
 		// group 1 202003 intake
 		["BRYAN TAN YEE KHAI", 1],
-		["DINESH PANIKKER A/L SIVADASAN", 1],
 	],
 	[
 		// group 2 201908 intake
@@ -33,6 +32,8 @@ const session1 = [
 		["TI SHIN KIR", 1],
 		["WU DONG-YIU", 1],
 		["YEO ZHEN HAW", 1],
+		// group 1 202003 intake
+		["DINESH PANIKKER A/L SIVADASAN", 1],
 	],
 ];
 const session2 = [
@@ -66,7 +67,7 @@ const session2 = [
 		["SURIA KUMAR A/L KARUPPANNAN", 1],
 		["TAJESWAR A/L RAMESH", 1],
 		["TAN JIA CHUN", 1],
-		["TAN JUN QI", 1],
+		["TAN JUN QI", 0],
 		["THEVENDRE A/L KUMARAN", 1],
 		["VALENTINE CHEPKORIR LANG'AT", 1],
 		["VETRI A/L THANABALAN", 1],
@@ -78,7 +79,7 @@ const session3 = [
 		// group 1 202001 intake
 		["EDMUND GOH SEH BENG", 1],
 		// group 1 202003 intake
-		["ANG WEI JIA", 1],
+		["ANG WEI JIA", 0],
 		["BRENDA NG ZHI YI", 1],
 		["CHEN XIAN NING", 1],
 		["CLIFF CHONG ZHENG-EU", 1],
@@ -87,7 +88,6 @@ const session3 = [
 		["MUHAMMAD ZIDAN BIN HAIROLLAH", 1],
 		["NATHANIEL TAY XIN RONG", 1],
 		["ARIANA NGAI SU WEI", 1],
-		["DANIEL HO KWOK PIN", 1],
 		["GAM CHEE XUAN", 1],
 		["HARRISH SUTHARSHAN", 1],
 		["HAZEEM BIN ASMIE", 1],
@@ -97,6 +97,7 @@ const session3 = [
 	],
 	[
 		// group 2 202003 intake
+		["DANIEL HO KWOK PIN", 1],
 		["JESSLYN LAW HEW YAN", 1],
 		["KONG LI WEI", 1],
 		["LEE EE LING", 1],
@@ -107,7 +108,7 @@ const session3 = [
 		["ONG SHI HOONG", 1],
 		["OOI ZONG YUAN", 1],
 		["ROSHANTH A/L JEYARAJ", 1],
-		["SYED AMIEL MATEEN BIN SYED ADRIN PUTRA", 1],
+		["SYED AMIEL MATEEN BIN SYED ADRIN PUTRA", 0],
 		["TAN KATHY", 1],
 		["TANG YI FONG", 1],
 		["TENG KWOK SANG", 1],
@@ -127,9 +128,12 @@ function add_session_row(i, append1, index, studentName, append2) {
 	</tr>`;
 }
 
+const max_capacity = 16;
+
 /* Add Session 1 Table Values */
 let append1 = "", append2 = "";
 let index = 1;
+let group_A = 0, group_B = 0, online_group = 0;
 for (let i = 0; i < session1.length; ++i) {
 	for (let student of session1[i]) {
 		append1 = "", append2 = "";	// reset append values
@@ -137,14 +141,24 @@ for (let i = 0; i < session1.length; ++i) {
 		if (!student[1]) {
 			append1 = " table-primary text-dark font-weight-normal";
 			append2 = " (online)";
+			if(i == 0) --group_A; else --group_B;
+			++online_group;
 		}
 		$("tbody#session-1-tbody").append(add_session_row(i, append1, index, student[0], append2));
 		++index;
+		if(i == 0) ++group_A; else ++group_B;
 	}
 }
+$("group-count-1").append();
+if(group_A >= max_capacity)$("#group-count-1").append(`<span class="font-weight-bold">Group A: ${group_A}</span>, `);
+else $("#group-count-1").append(`Group A: ${group_A}, `);
+if(group_B >= max_capacity)$("#group-count-1").append(`<span class="font-weight-bold">Group B: ${group_B}</span>, `);
+else $("#group-count-1").append(`Group B: ${group_B}, `);
+$("#group-count-1").append(`Online only: ${online_group}`);
 
 /* Add Session 2 Table Values */
 index = 1;
+group_A = 0, group_B = 0, online_group = 0;
 for (let i = 0; i < session2.length; ++i) {
 	for (let student of session2[i]) {
 		append1 = "", append2 = "";	// reset append values
@@ -152,14 +166,24 @@ for (let i = 0; i < session2.length; ++i) {
 		if (!student[1]) {
 			append1 = " table-primary text-dark font-weight-normal";
 			append2 = " (online)";
+			if(i == 0) --group_A; else --group_B;
+			++online_group;
 		}
 		$("tbody#session-2-tbody").append(add_session_row(i, append1, index, student[0], append2));
 		++index;
+		if(i == 0) ++group_A; else ++group_B;
 	}
 }
+$("group-count-2").append();
+if(group_A >= max_capacity)$("#group-count-2").append(`<span class="font-weight-bold">Group A: ${group_A}</span>, `);
+else $("#group-count-2").append(`Group A: ${group_A}, `);
+if(group_B >= max_capacity)$("#group-count-2").append(`<span class="font-weight-bold">Group B: ${group_B}</span>, `);
+else $("#group-count-2").append(`Group B: ${group_B}, `);
+$("#group-count-2").append(`Online only: ${online_group}`);
 
 /* Add Session 3 Table Values */
 index = 1;
+group_A = 0, group_B = 0, online_group = 0;
 for (let i = 0; i < session3.length; ++i) {
 	for (let student of session3[i]) {
 		append1 = "", append2 = "";	// reset append values
@@ -167,11 +191,20 @@ for (let i = 0; i < session3.length; ++i) {
 		if (!student[1]) {
 			append1 = " table-primary text-dark font-weight-normal";
 			append2 = " (online)";
+			if(i == 0) --group_A; else --group_B;
+			++online_group;
 		}
 		$("tbody#session-3-tbody").append(add_session_row(i, append1, index, student[0], append2));
 		++index;
+		if(i == 0) ++group_A; else ++group_B;
 	}
 }
+$("group-count-3").append();
+if(group_A >= max_capacity)$("#group-count-3").append(`<span class="font-weight-bold">Group A: ${group_A}</span>, `);
+else $("#group-count-3").append(`Group A: ${group_A}, `);
+if(group_B >= max_capacity)$("#group-count-3").append(`<span class="font-weight-bold">Group B: ${group_B}</span>, `);
+else $("#group-count-3").append(`Group B: ${group_B}, `);
+$("#group-count-3").append(`Online only: ${online_group}`);
 
 function week_decide(f2f, online) {
 	$("#decide_f2f").html(f2f);
