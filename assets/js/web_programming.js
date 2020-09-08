@@ -79,7 +79,7 @@ const session3 = [
 		// group 1 202001 intake
 		["EDMUND GOH SEH BENG", 1],
 		// group 1 202003 intake
-		["ANG WEI JIA", 0],
+		["ANG WEI JIA", 1],
 		["BRENDA NG ZHI YI", 1],
 		["CHEN XIAN NING", 1],
 		["CLIFF CHONG ZHENG-EU", 1],
