@@ -1,6 +1,7 @@
 const session1 = [
 	[
 		// group 1 201908 intake
+		["HO JIE MING AARON", 1],
 		["IMAN HAFIZ BIN KHAIRUL ANUAR", 1],
 		// group 1 202001 intake
 		["ABDUL LATIF MOHAMED IRFAN FAZLANI", 1],
@@ -141,18 +142,18 @@ for (let i = 0; i < session1.length; ++i) {
 		if (!student[1]) {
 			append1 = " table-primary text-dark font-weight-normal";
 			append2 = " (online)";
-			if(i == 0) --group_A; else --group_B;
+			if (i == 0) --group_A; else --group_B;
 			++online_group;
 		}
 		$("tbody#session-1-tbody").append(add_session_row(i, append1, index, student[0], append2));
 		++index;
-		if(i == 0) ++group_A; else ++group_B;
+		if (i == 0) ++group_A; else ++group_B;
 	}
 }
 $("group-count-1").append();
-if(group_A >= max_capacity)$("#group-count-1").append(`<span class="font-weight-bold">Group A: ${group_A}</span>, `);
+if (group_A >= max_capacity) $("#group-count-1").append(`<span class="font-weight-bold">Group A: ${group_A}</span>, `);
 else $("#group-count-1").append(`Group A: ${group_A}, `);
-if(group_B >= max_capacity)$("#group-count-1").append(`<span class="font-weight-bold">Group B: ${group_B}</span>, `);
+if (group_B >= max_capacity) $("#group-count-1").append(`<span class="font-weight-bold">Group B: ${group_B}</span>, `);
 else $("#group-count-1").append(`Group B: ${group_B}, `);
 $("#group-count-1").append(`Online only: ${online_group}`);
 
@@ -166,18 +167,18 @@ for (let i = 0; i < session2.length; ++i) {
 		if (!student[1]) {
 			append1 = " table-primary text-dark font-weight-normal";
 			append2 = " (online)";
-			if(i == 0) --group_A; else --group_B;
+			if (i == 0) --group_A; else --group_B;
 			++online_group;
 		}
 		$("tbody#session-2-tbody").append(add_session_row(i, append1, index, student[0], append2));
 		++index;
-		if(i == 0) ++group_A; else ++group_B;
+		if (i == 0) ++group_A; else ++group_B;
 	}
 }
 $("group-count-2").append();
-if(group_A >= max_capacity)$("#group-count-2").append(`<span class="font-weight-bold">Group A: ${group_A}</span>, `);
+if (group_A >= max_capacity) $("#group-count-2").append(`<span class="font-weight-bold">Group A: ${group_A}</span>, `);
 else $("#group-count-2").append(`Group A: ${group_A}, `);
-if(group_B >= max_capacity)$("#group-count-2").append(`<span class="font-weight-bold">Group B: ${group_B}</span>, `);
+if (group_B >= max_capacity) $("#group-count-2").append(`<span class="font-weight-bold">Group B: ${group_B}</span>, `);
 else $("#group-count-2").append(`Group B: ${group_B}, `);
 $("#group-count-2").append(`Online only: ${online_group}`);
 
@@ -191,18 +192,18 @@ for (let i = 0; i < session3.length; ++i) {
 		if (!student[1]) {
 			append1 = " table-primary text-dark font-weight-normal";
 			append2 = " (online)";
-			if(i == 0) --group_A; else --group_B;
+			if (i == 0) --group_A; else --group_B;
 			++online_group;
 		}
 		$("tbody#session-3-tbody").append(add_session_row(i, append1, index, student[0], append2));
 		++index;
-		if(i == 0) ++group_A; else ++group_B;
+		if (i == 0) ++group_A; else ++group_B;
 	}
 }
 $("group-count-3").append();
-if(group_A >= max_capacity)$("#group-count-3").append(`<span class="font-weight-bold">Group A: ${group_A}</span>, `);
+if (group_A >= max_capacity) $("#group-count-3").append(`<span class="font-weight-bold">Group A: ${group_A}</span>, `);
 else $("#group-count-3").append(`Group A: ${group_A}, `);
-if(group_B >= max_capacity)$("#group-count-3").append(`<span class="font-weight-bold">Group B: ${group_B}</span>, `);
+if (group_B >= max_capacity) $("#group-count-3").append(`<span class="font-weight-bold">Group B: ${group_B}</span>, `);
 else $("#group-count-3").append(`Group B: ${group_B}, `);
 $("#group-count-3").append(`Online only: ${online_group}`);
 
