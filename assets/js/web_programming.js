@@ -85,7 +85,6 @@ const session3 = [
 		["CHEN XIAN NING", 1],
 		["CLIFF CHONG ZHENG-EU", 1],
 		["DAIYAN HAZEEQ BIN MOHAMED YAZMAN", 1],
-		["GOH SHEE XUAN", 1],
 		["MUHAMMAD ZIDAN BIN HAIROLLAH", 1],
 		["NATHANIEL TAY XIN RONG", 1],
 		["ARIANA NGAI SU WEI", 1],
@@ -99,6 +98,7 @@ const session3 = [
 	[
 		// group 2 202003 intake
 		["DANIEL HO KWOK PIN", 1],
+		["GOH SHEE XUAN", 1],
 		["JESSLYN LAW HEW YAN", 1],
 		["KONG LI WEI", 1],
 		["LEE EE LING", 1],
