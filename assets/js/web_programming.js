@@ -6,6 +6,7 @@ const session1 = [
 		// group 1 202001 intake
 		["ABDUL LATIF MOHAMED IRFAN FAZLANI", 1],
 		["AMIR HAZIQ BIN OTHMAN", 0],
+		["BRYAN TAN YEE KHAI", 1],
 		["CHEAH BING XIAN", 1],
 		["CHELSEA LIAWWANDY", 0],
 		["DYLAN TAN CHING ZHE", 1],
@@ -16,13 +17,12 @@ const session1 = [
 		["M M YASIN BIN SHAFIQ", 1],
 		["MAHOMED AQEEL AHMED HUSSEIN", 0],
 		["NG KEN LIN", 1],
-		// group 1 202003 intake
-		["BRYAN TAN YEE KHAI", 1],
 	],
 	[
 		// group 2 201908 intake
 		["QUA YU HANG", 1],
 		// group 2 202001 intake
+		["DINESH PANIKKER A/L SIVADASAN", 1],
 		["MOHAMMED AHNAF TAJWAR", 1],
 		["MUHAMMAD NAFEEZ BIN NASSER", 1],
 		["MUHAMMAD RAKIBUR RAHMAN JIM", 1],
@@ -33,17 +33,14 @@ const session1 = [
 		["TI SHIN KIR", 1],
 		["WU DONG-YIU", 1],
 		["YEO ZHEN HAW", 1],
-		// group 1 202003 intake
-		["DINESH PANIKKER A/L SIVADASAN", 1],
 	],
 ];
 const session2 = [
 	[
-		// group 1 202001 intake
-		["BRIAN LEE KAR ONN", 1],
 		// group 1 202003 intake
 		["AMAL DANISH AZMAN", 0],
 		["BENJAMIN JESUDEAN DANIEL", 1],
+		["BRIAN LEE KAR ONN", 1],
 		["CHAI QI QIAN", 1],
 		["CHOO ZHENG", 1],
 		["HEW PUI EE", 1],
@@ -77,8 +74,6 @@ const session2 = [
 ];
 const session3 = [
 	[
-		// group 1 202001 intake
-		["EDMUND GOH SEH BENG", 1],
 		// group 1 202003 intake
 		["ANG WEI JIA", 1],
 		["BRENDA NG ZHI YI", 1],
@@ -88,6 +83,7 @@ const session3 = [
 		["MUHAMMAD ZIDAN BIN HAIROLLAH", 1],
 		["NATHANIEL TAY XIN RONG", 1],
 		["ARIANA NGAI SU WEI", 1],
+		["EDMUND GOH SEH BENG", 1],
 		["GAM CHEE XUAN", 1],
 		["HARRISH SUTHARSHAN", 1],
 		["HAZEEM BIN ASMIE", 1],
