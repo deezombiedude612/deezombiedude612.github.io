@@ -9,6 +9,7 @@ const session1 = [
 		["BRYAN TAN YEE KHAI", 1],
 		["CHEAH BING XIAN", 1],
 		["CHELSEA LIAWWANDY", 0],
+		["DINESH PANIKKER A/L SIVADASAN", 1],
 		["DYLAN TAN CHING ZHE", 1],
 		["HUMERA SALEH", 0],
 		["JOSHUA MARK NAIR", 1],
@@ -22,7 +23,6 @@ const session1 = [
 		// group 2 201908 intake
 		["QUA YU HANG", 1],
 		// group 2 202001 intake
-		["DINESH PANIKKER A/L SIVADASAN", 1],
 		["MOHAMMED AHNAF TAJWAR", 1],
 		["MUHAMMAD NAFEEZ BIN NASSER", 1],
 		["MUHAMMAD RAKIBUR RAHMAN JIM", 1],
