@@ -1,21 +1,23 @@
-<?php
-require "../assets/includes/common-css.php";
-require "../assets/includes/common-js.php";
-require "../assets/includes/fa-shortcut.php";
-require "../assets/includes/navi.php";
-require "../assets/includes/shortcut-icon.php";
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 	<head>
-		<?php include "../assets/includes/meta.html"; ?>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="henryheng612">
+		<meta name="keywords"
+			content="henry heng hian wee, henry heng, heng hian wee, heng, hian wee, henryheng612, henghenry612">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>ITS30605 Web Programming</title>
 
-		<?php shortcut_icon(1); ?>
-		<?php common_css(1); ?>
+		<!-- Shortcut Icon -->
+		<link href="../assets/images/hhicon.png" rel="shortcut icon">
+
+		<!-- Bootstrap CSS -->
+		<link href="../assets/bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Font Awesome 5 Icons CSS -->
+		<link href="../assets/fontawesome-free/css/all.css" rel="stylesheet">
 
 		<!-- External CSS -->
 		<link href="../assets/css/its30605.css" rel="stylesheet">
@@ -58,7 +60,18 @@ require "../assets/includes/shortcut-icon.php";
 		</div>
 		<!-- /div.container-fluid -->
 
-		<?php common_js(1); ?>
+		<!-- jQuery (must be put first before Bootstrap) -->
+		<script src="../assets/jquery-dist/jquery.min.js"></script>
+
+		<!-- Popper JS (must be put before Bootstrap) -->
+		<script src="../assets/popperjs-dist/umd/popper.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script src="../assets/bootstrap-dist/js/bootstrap.min.js"></script>
+		<script src="../assets/bootstrap-dist/js/bootstrap.bundle.min.js"></script>
+
+		<!-- External JS -->
+		<script src="../assets/js/main.js"></script>
 		<script src="../assets/js/wp-groups.js"></script>
 	</body>
 
