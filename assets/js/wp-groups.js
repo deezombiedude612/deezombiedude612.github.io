@@ -177,7 +177,7 @@ const groups3 = [
 	{
 		leader: ["CHEN XIAN NING", "0344251"],
 		members: [
-			["ANG WEI JIA", "0344251"],
+			["ANG WEI JIA", "0342302"],
 			["GAM CHEE XUAN", "0342347"],
 			["ROSHANTH A/L JEYARAJ", "0342730"],
 		]
