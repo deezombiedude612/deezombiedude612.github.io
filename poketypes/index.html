@@ -33,20 +33,18 @@
 					<img id="nav-logo" src="../assets/images/hhicon.png" alt="nav-logo">
 				</a>
 				<!-- /a.navbar-brand -->
-				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-					data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-					aria-label="Toggle navigation">
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+					aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<!-- /button.navbar-toggler -->
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="../https://henryheng612.com" target="_blank">Main
-								Website</a>
+						<li class="nav-item"><a class="nav-link" href="../https://henryheng612.com" target="_blank">Main Website</a>
 							<div class="underline"></div>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="https://blog.henryheng612.com"
-								target="_blank">Incoherent Thoughts</a>
+						<li class="nav-item"><a class="nav-link" href="https://blog.henryheng612.com" target="_blank">Incoherent
+								Thoughts</a>
 							<div class="underline"></div>
 						</li> <!-- <li class="nav-item dropdown"> -->
 						<!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
@@ -76,19 +74,44 @@
 					<div id="type-selection">
 						<div class="card bg-transparent">
 							<div class="row justify-content-center">
-								<div class="col-xl-5" id="type-1">
+								<div class="col-xl-4" id="type-1">
 									<h4>Primary Type</h4>
 								</div>
 								<!-- /div#type-1 -->
-								<div class="col-xl-5" id="type-2">
+								<div class="col-xl-4 border-left" id="type-2">
 									<h4>Secondary Type</h4>
 									<button class="btn btn-sm btn-outline-secondary btn-pkmn2 active" id="btn-nil2"
 										onclick="click2('nil')">NONE</button>
 								</div>
 								<!-- /div#type-2 -->
 
-								<button class="btn btn-outline-light" id="btn-reset" onclick="reset()">RESET
-									SELECTION</button>
+								<div class="col-xl-4 border-left" id="type-3">
+									<div class="row">
+										<div class="col-xl-6 text-center" id="suppress-abilities">
+											<h4 class="text-center">Suppressing Abilities</h4>
+										</div>
+										<!-- /div#suppress-abilities -->
+
+										<div class="col-xl-6 text-center border-left" id="type-change-moves">
+											<h4 class="text-center">Type Changing Moves</h4>
+										</div>
+										<!-- /div#type-change-moves -->
+									</div>
+
+									<hr>
+
+									<div class="row" id="btn-control">
+										<div class="col-xl-6"></div>
+										<!-- /div.col-xl-6 -->
+										<div class="col-xl-6">
+											<button class="btn btn-outline-light btn-block" id="btn-reset" onclick="reset()">RESET
+												SELECTION</button>
+										</div>
+										<!-- /div.col-xl-6 -->
+									</div>
+									<!-- /div#btn-control -->
+								</div>
+								<!-- /div#type3 -->
 							</div>
 							<!-- /div.row.justify-content-center -->
 						</div>
@@ -96,16 +119,8 @@
 					</div>
 					<!-- /div#type-selection -->
 
-					<div class="text-center" id="language-selection">
-						<button class="btn btn-sm btn-outline-light active" id="btn-eng"
-							onclick="languageChange(0)">ENG</button>
-						<button class="btn btn-sm btn-outline-light" id="btn-jpn"
-							onclick="languageChange(1)">JPN</button>
-						<button class="btn btn-sm btn-outline-light" id="btn-chs"
-							onclick="languageChange(3)">CHS</button>
-						<button class="btn btn-sm btn-outline-light" id="btn-cht"
-							onclick="languageChange(4)">CHT</button>
-					</div>
+					<div class="text-center" id="language-selection"></div>
+					<!-- /div#language-selection -->
 
 					<hr>
 					<div class="row" id="type-effectiveness">
