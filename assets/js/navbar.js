@@ -1,62 +1,75 @@
-(function ($) {
+/**
+ * Automatically show dropdown menu item contents on hover
+ *
+ * Reference for animation on dropdown:
+ * https://webdesign.tutsplus.com/tutorials/how-to-make-the-bootstrap-navbar-dropdown-work-on-hover--cms-33840
+ */
 
-	var navbar = $('.navbar');
-	var lastScrollTop = 0;
-	var preferredHeight = 35;
+// const $dropdown = $(".dropdown");
+// const $dropdownToggle = $(".dropdown-toggle");
+// const $dropdownMenu = $(".dropdown-menu");
+// const showClass = "show";
 
-	$(window).scroll(function () {
-		var st = $(this).scrollTop();
-		if (st > lastScrollTop && st > preferredHeight) navbar.fadeOut();
-		else if (st < lastScrollTop && st > preferredHeight) {
-			navbar.fadeIn();
-			navbar.addClass('bg-dark');
-		} else {
-			navbar.removeClass('bg-dark');
-		}
+// $(window).on("load resize", () => {
+// 	if (this.matchMedia("(min-width: 768px)").matches) {
+// 		$dropdown.on(
+// 			"mouseenter",
+// 			// mouseEnter()
+// 			function() {
+// 				console.log("Mouse enter");
+// 				const $this = $(this);
+// 				$this.addClass(showClass);
+// 				$this.find($dropdownToggle).attr("aria-expanded", "true");
+// 				$this.find($dropdownMenu).addClass(showClass);
+// 			}
+// 		);
+// 		$dropdown.on(
+// 			"mouseleave",
+// 			// mouseLeave()
+// 			function() {
+// 				console.log("Mouse leave");
+// 				const $this = $(this);
+// 				$this.removeClass(showClass);
+// 				$this.find($dropdownToggle).attr("aria-expanded", "false");
+// 				$this.find($dropdownMenu).removeClass(showClass);
+// 			}
+// 		);
+// 	} else {
+// 		$dropdown.off("mouseenter mouseleave");
+// 	}
+// });
 
-		// // Scroll down
-		// if (st > lastScrollTop) {
-		// 	navbar.fadeOut();
-		// }
-		// // Scroll up but still lower than 200 (change that to whatever suits your need)
-		// else if (st < lastScrollTop && st > 200) {
-		// 	navbar.fadeIn();
-		// 	navbar.removeClass('navbar-light bg-transparent').addClass('navbar-dark bg-custom');
-		// }
-		// // Reached top
-		// else {
-		// 	navbar.removeClass('navbar-dark bg-custom').addClass('navbar-light bg-transparent');
-		// }
-		lastScrollTop = st;
-	});
-
-})(jQuery);
-
-// Reference for animation on dropdown: https://webdesign.tutsplus.com/tutorials/how-to-make-the-bootstrap-navbar-dropdown-work-on-hover--cms-33840
-
-const $dropdown = $(".dropdown");
-const $dropdownToggle = $(".dropdown-toggle");
-const $dropdownMenu = $(".dropdown-menu");
+const $dropdown = document.querySelector(".dropdown");
+const $dropdownToggle = document.querySelector(".dropdown-toggle");
+const $dropdownMenu = document.querySelector(".dropdown-menu");
 const showClass = "show";
 
-$(window).on("load resize", () => {
+function dropDownHandler() {
 	if (this.matchMedia("(min-width: 768px)").matches) {
-		$dropdown.hover(
-			function () {
-				// this.console.log("HI!");
-				const $this = $(this);
-				$this.addClass(showClass);
-				$this.find($dropdownToggle).attr("aria-expanded", "true");
-				$this.find($dropdownMenu).addClass(showClass);
-			},
-			function () {
-				const $this = $(this);
-				$this.removeClass(showClass);
-				$this.find($dropdownToggle).attr("aria-expanded", "false");
-				$this.find($dropdownMenu).removeClass(showClass);
-			}
-		);
+		$dropdown.addEventListener("mouseenter", function(e) {
+			// console.log("Mouse enter");
+			// console.log(e.target);
+
+			const $this = e.target;
+			$this.classList.add(showClass);
+			$dropdownToggle.setAttribute("aria-expanded", "true");
+			$dropdownMenu.classList.add(showClass);
+		});
+		$dropdown.addEventListener("mouseleave", function(e) {
+			// console.log("Mouse leave");
+			// console.log(e.target);
+
+			const $this = e.target;
+			$this.classList.remove(showClass);
+			$dropdownToggle.setAttribute("aria-expanded", "false");
+			$dropdownMenu.classList.remove(showClass);
+		});
 	} else {
-		$dropdown.off("mouseenter mouseleave");
+		$dropdown.removeEventListener("mouseenter mouseleave");
 	}
-});
+}
+
+if ($dropdown) {
+	window.addEventListener("load", dropDownHandler());
+	window.addEventListener("resize", dropDownHandler());
+}

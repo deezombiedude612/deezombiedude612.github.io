@@ -1,206 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="henryheng612">
-		<meta name="keywords"
-			content="henry heng hian wee, henry heng, heng hian wee, heng, hian wee, henryheng612, henghenry612">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>dzd612 GitHub IO | Pokétypes</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="deezombiedude" />
+		<meta
+			name="keywords"
+			content="Henry Heng Hian Wee, Henry Heng, Heng Hian Wee, henryheng612, deezombiedude, deezombiedude612"
+		/>
+		<meta name="description" content="A wannabe stilt owl Pokémon professor did this." />
 
-		<!-- Shortcut Icon -->
-		<link href="../assets/images/hhicon.png" rel="shortcut icon">
+		<title>Henry Heng | PKMN Matchups</title>
 
+		<!-- Favicon -->
+		<link href="../assets/images/hhicon.png" rel="shortcut icon" />
 
-		<!-- Bootstrap CSS -->
-		<link href="../assets/bootstrap-dist/css/bootstrap.min.css" rel="stylesheet">
-
-		<!-- Font Awesome 5 Icons CSS -->
-		<link href="../assets/fontawesome-free/css/all.css" rel="stylesheet">
+		<!-- Font Awesome CSS -->
+		<link href="../assets/css/fontawesome.css" rel="stylesheet" />
 
 		<!-- External CSS -->
-		<link href="../assets/css/poketypes.css" rel="stylesheet">
+		<link rel="stylesheet" href="../assets/css/poketypes.css" />
 
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-78618719-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "UA-78618719-2");
+		</script>
 	</head>
 
 	<body>
+		<header class="container-fluid my-5 pt-5 text-center">
+			<h1 class="display-1">Pokémon Type Matchups</h1>
+		</header>
+		<!-- /header.mt5.text-center -->
 
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navi">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="../">
-					<img id="nav-logo" src="../assets/images/hhicon.png" alt="nav-logo">
+		<section class="container">
+			<section class="row justify-content-xl-evenly text-center my-5" id="type-selection">
+				<section class="col-xl-5 card bg-transparent border-1 border-primary p-4">
+					<header>
+						<h4 class="display-6">Primary Type</h4>
+					</header>
+
+					<section id="type-1"></section>
+					<!-- /section#type-1 -->
+				</section>
+
+				<section class="col-xl-5 card bg-transparent border-1 border-primary p-4">
+					<header>
+						<h4 class="display-6">Secondary Type</h4>
+					</header>
+
+					<section id="type-2">
+						<button class="btn btn-outline-dark btn-outline-pkmn2" id="btn-nil2" onclick="click2('nil');">NONE</button>
+					</section>
+					<!-- /section#type-2 -->
+				</section>
+				<!-- /section.col-xl-5.card.bg-transparent.border-1.border-primary.p-4 -->
+
+				<section class="col-xl-4">
+					<a
+						class="btn btn-outline-primary"
+						data-bs-toggle="collapse"
+						href="#collapseAbilities"
+						role="button"
+						aria-expanded="false"
+						aria-controls="collapseAbilities"
+					>
+						Toggle Situation Modifiers
+					</a>
+				</section>
+
+				<section class="collapse m-4" id="collapseAbilities">
+					<section class="col-xl-12 card bg-transparent border-1 border-secondary p-4">
+						<section class="row justify-content-evenly">
+							<section class="col-xl-5" id="suppress-abilities">
+								<header>
+									<h4 class="display-6">Suppressing Abilities</h4>
+								</header>
+							</section>
+							<!-- /section#suppress-abilities -->
+
+							<section class="col-xl-5" id="type-change-moves">
+								<header>
+									<h4 class="display-6">Type Changing Moves</h4>
+								</header>
+							</section>
+							<!-- /section#type-change-moves -->
+
+							<section class="col-xl-4">
+								<button class="btn btn-outline-primary" id="btn-clearAbility" onclick="click3('')">
+									CLEAR ABILITIES
+								</button>
+							</section>
+							<!-- /section.col-xl-4 -->
+						</section>
+						<!-- /section.row.justify-content-evenly -->
+					</section>
+					<!-- /section.col-xl-12.card.bg-transparent.border-1.border-secondary.p-4 -->
+				</section>
+				<!-- /section#collapseAbilities -->
+			</section>
+			<!-- /section#type-selection -->
+
+			<hr class="border-primary" />
+
+			<section class="text-center">
+				<section class="btn-group mx-4" id="language-selection"></section>
+				<!-- /section.language-selection -->
+
+				<button class="btn btn-outline-primary btn-block" id="btn-reset" onclick="reset()">RESET SELECTION</button>
+			</section>
+			<!-- /section.text-center -->
+
+			<hr class="border-primary" />
+
+			<section class="row justify-content-xl-evenly my-5" id="type-effectiveness">
+				<section class="col-xl-12 text-center">
+					<header>
+						<h4 class="display-6">Weakness Chart</h4>
+					</header>
+				</section>
+				<!-- /section.col-xl-12.text-center -->
+
+				<section class="col-xl-5 text-center">
+					<section class="card bg-transparent border-success p-4 my-3">
+						<header>
+							<h4 class="display-6">Super Effective</h4>
+						</header>
+
+						<section class="d-flex flex-row flex-wrap justify-content-center" id="super-effect"></section>
+						<!-- section/#super-effect -->
+					</section>
+					<!-- section/.card.bg-transparent.border-success.p-4.my-3 -->
+				</section>
+				<!-- section/.col-xl-5.text-center -->
+
+				<section class="col-xl-5 text-center">
+					<section class="card bg-transparent border-primary p-4 my-3">
+						<header>
+							<h4 class="display-6">Effective</h4>
+						</header>
+
+						<section class="d-flex flex-row flex-wrap justify-content-center" id="normal-effect"></section>
+						<!-- section/#normal-effect -->
+					</section>
+					<!-- section/.card.bg-transparent.border-primary.p-4.my-3 -->
+				</section>
+				<!-- section/.col-xl-5.text-center -->
+
+				<section class="col-xl-5 text-center">
+					<section class="card bg-transparent border-secondary p-4 my-3">
+						<header>
+							<h4 class="display-6">Less Effective</h4>
+						</header>
+
+						<section class="d-flex flex-row flex-wrap justify-content-center" id="less-effect"></section>
+						<!-- section/#less-effect -->
+					</section>
+					<!-- section/.card.bg-transparent.border-secondary.p-4.my-3 -->
+				</section>
+				<!-- section/.col-xl-5.text-center -->
+
+				<section class="col-xl-5 text-center">
+					<section class="card bg-transparent border-danger p-4 my-3">
+						<header>
+							<h4 class="display-6">No Effect</h4>
+						</header>
+
+						<section class="d-flex flex-row flex-wrap justify-content-center" id="no-effect"></section>
+						<!-- section/#less-effect -->
+					</section>
+					<!-- section/.card.bg-transparent.border-danger.p-4.my-3 -->
+				</section>
+				<!-- section/.col-xl-5.text-center -->
+			</section>
+			<!-- /section#type-effectiveness -->
+
+			<hr class="border-primary" />
+
+			<p class="caption text-center">
+				Icons obtained from: <br />
+				<a
+					class="font-monospace text-decoration-none"
+					href="https://github.com/duiker101/pokemon-type-svg-icons"
+					target="_blank"
+				>
+					https://github.com/duiker101/pokemon-type-svg-icons
 				</a>
-				<!-- /a.navbar-brand -->
-				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-					aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<!-- /button.navbar-toggler -->
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="../https://henryheng612.com" target="_blank">Main Website</a>
-							<div class="underline"></div>
-						</li>
-						<li class="nav-item"><a class="nav-link" href="https://blog.henryheng612.com" target="_blank">Incoherent
-								Thoughts</a>
-							<div class="underline"></div>
-						</li> <!-- <li class="nav-item dropdown"> -->
-						<!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						Miscellaneous
-					</a> -->
-						<!-- /a#navbarDropdownMenuLink -->
-						<!-- <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink"> -->
-						<!-- </div> -->
-						<!-- /div.dropdown-menu.dropdown-menu-right -->
-						<!-- </li> -->
-						<!-- /li.nav-item.dropdown -->
-					</ul>
-					<!-- /ul.navbar-nav.ml-auto -->
-				</div>
-				<!-- /#navbarResponsive -->
-			</div>
-			<!-- /div#container-fluid -->
-		</nav>
-		<!-- /nav.navbar.navbar-expand-md.fixed-top -->
-
-		<div class="container-fluid">
-			<div class="section">
-				<h1 class="section-title">Pokémon Type Matchups</h1>
-
-				<div class="col-xl-10 section">
-					<div id="type-selection">
-						<div class="card bg-transparent">
-							<div class="row justify-content-center">
-								<div class="col-xl-4" id="type-1">
-									<h4>Primary Type</h4>
-								</div>
-								<!-- /div#type-1 -->
-								<div class="col-xl-4 border-left" id="type-2">
-									<h4>Secondary Type</h4>
-									<button class="btn btn-sm btn-outline-secondary btn-pkmn2 active" id="btn-nil2"
-										onclick="click2('nil')">NONE</button>
-								</div>
-								<!-- /div#type-2 -->
-
-								<div class="col-xl-4 border-left" id="type-3">
-									<div class="row">
-										<div class="col-xl-6 text-center" id="suppress-abilities">
-											<h4 class="text-center">Suppressing Abilities</h4>
-										</div>
-										<!-- /div#suppress-abilities -->
-
-										<div class="col-xl-6 text-center border-left" id="type-change-moves">
-											<h4 class="text-center">Type Changing Moves</h4>
-										</div>
-										<!-- /div#type-change-moves -->
-									</div>
-
-									<hr>
-
-									<div class="row" id="btn-control">
-										<div class="col-xl-6"></div>
-										<!-- /div.col-xl-6 -->
-										<div class="col-xl-6">
-											<button class="btn btn-outline-light btn-block" id="btn-reset" onclick="reset()">RESET
-												SELECTION</button>
-										</div>
-										<!-- /div.col-xl-6 -->
-									</div>
-									<!-- /div#btn-control -->
-								</div>
-								<!-- /div#type3 -->
-							</div>
-							<!-- /div.row.justify-content-center -->
-						</div>
-						<!-- /div.card.bg-transparent -->
-					</div>
-					<!-- /div#type-selection -->
-
-					<div class="text-center" id="language-selection"></div>
-					<!-- /div#language-selection -->
-
-					<hr>
-					<div class="row" id="type-effectiveness">
-						<div class="col-xl-12">
-							<h4>Weakness Chart</h4>
-						</div>
-						<div class="col-xl-5 offset-xl-1">
-							<div class="card bg-transparent">
-								<h4>Super Effective</h4>
-
-								<div class="d-flex flex-row flex-wrap justify-content-center" id="super-effect">
-								</div>
-								<!-- /div#super-effect -->
-							</div>
-							<!-- /div.card.bg-transparent -->
-						</div>
-						<!-- /div.col-xl-3 -->
-
-
-						<div class="col-xl-5">
-							<div class="card bg-transparent">
-								<h4>Effective</h4>
-
-								<div class="d-flex flex-row flex-wrap justify-content-center" id="normal-effect">
-								</div>
-								<!-- /div#normal-effect -->
-							</div>
-							<!-- /div.card.bg-transparent -->
-						</div>
-						<!-- /div.col-xl-3 -->
-
-
-						<div class="col-xl-5 offset-xl-1">
-							<div class="card bg-transparent">
-								<h4>Less Effective</h4>
-
-								<div class="d-flex flex-row flex-wrap justify-content-center" id="less-effect">
-								</div>
-								<!-- /div#less-effect -->
-							</div>
-							<!-- /div.card.bg-transparent -->
-						</div>
-						<!-- /div.col-xl-3 -->
-
-
-						<div class="col-xl-5">
-							<div class="card bg-transparent">
-								<h4>No Effect</h4>
-
-								<div class="d-flex flex-row flex-wrap justify-content-center" id="immune-effect">
-								</div>
-								<!-- /div#immune-effect -->
-							</div>
-							<!-- /div.card.bg-transparent -->
-						</div>
-						<!-- /div.col-xl-3 -->
-					</div>
-					<!-- /div#type-effectiveness -->
-
-					<div class="row" id="pokedex-list">
-					</div>
-					<!-- /div#pokedex-list -->
-				</div>
-				<!-- /div.row.col-xl-10.section -->
-
-				<p class="caption">
-					Icons obtained from: <a
-						href="https://github.com/duiker101/pokemon-type-svg-icons">https://github.com/duiker101/pokemon-type-svg-icons</a>
-				</p>
-			</div>
-			<!-- /div.section -->
-		</div>
-		<!-- /div.container-fluid -->
+			</p>
+			<!-- /p.captiion.text-center -->
+		</section>
+		<!-- /section.container -->
 
 		<footer>
-			<p>@<span id="year"></span> deezombiedude612.github.io</p>
-			<ul>
+			<picture>
+				<source
+					srcset="../assets/images/footer-banner@1x.png 1x, ../assets/images/footer-banner.png 2x"
+					type="image/png"
+				/>
+
+				<img src="../assets/images/footer-banner@1x.png" alt="Footer Banner" id="footer_banner" />
+			</picture>
+			<p>
+				@<span id="year"></span> Henry Heng &#x1F989;<br />
+				<a class="text-decoration-none" href="https://twitter.com/lucy_was_taken_" target="_blank">
+					<i class="fab fa-twitter fa-lg footer-fa"></i>
+					Footer art by @lucy_was_taken_
+				</a>
+			</p>
+			<ul class="d-inline-block">
 				<li>
-					<a href="https://twitter.com/HenryHHW" target="_blank">
+					<a href="https://twitter.com/deezombiedude" target="_blank">
 						<i class="fab fa-twitter fa-lg footer-fa"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/deezombiedude/" target="_blank">
+						<i class="fab fa-instagram fa-lg footer-fa"></i>
 					</a>
 				</li>
 				<li>
@@ -209,29 +231,37 @@
 					</a>
 				</li>
 				<li>
+					<a href="https://www.github.com/deezombiedude612" target="_blank">
+						<i class="fab fa-github fa-lg footer-fa"></i>
+					</a>
+				</li>
+				<li>
 					<a href="https://www.youtube.com/user/deezombiedude612/" target="_blank">
 						<i class="fab fa-youtube fa-lg footer-fa"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://t.me/deezombiedude" target="_blank">
+						<i class="fab fa-telegram-plane fa-lg footer-fa"></i>
 					</a>
 				</li>
 			</ul>
 		</footer>
 		<!-- /footer -->
 
-		<!-- jQuery (must be put first before Bootstrap) -->
-		<script src="../assets/jquery-dist/jquery.min.js"></script>
-
-		<!-- Popper JS (must be put before Bootstrap) -->
-		<script src="../assets/popperjs-dist/umd/popper.min.js"></script>
+		<!-- AOS JS -->
+		<script src="../assets/js/aos-js/aos.js"></script>
 
 		<!-- Bootstrap JS -->
-		<script src="../assets/bootstrap-dist/js/bootstrap.min.js"></script>
-		<script src="../assets/bootstrap-dist/js/bootstrap.bundle.min.js"></script>
+		<script src="../assets/js/bootstrap-js/bootstrap.min.js"></script>
+
+		<!-- jQuery -->
+		<script src="../assets/js/jquery/jquery.min.js"></script>
 
 		<!-- External JS -->
 		<script src="../assets/js/main.js"></script>
 		<script src="../assets/js/navbar.js"></script>
-		<script src="../assets/js/pokedex.js"></script>
+
 		<script src="../assets/js/poketypes.js"></script>
 	</body>
-
 </html>

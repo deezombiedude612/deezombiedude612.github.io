@@ -1,4 +1,4 @@
-$("#year").html(new Date().getFullYear());
+if (document.querySelector("#year")) document.querySelector("#year").innerHTML = new Date().getFullYear();
 
 // Reference: https://stackoverflow.com/questions/44109314/javascript-calculate-with-viewport-width-height
 function vh(v) {
@@ -17,4 +17,13 @@ function vmin(v) {
 
 function vmax(v) {
 	return Math.max(vh(v), vw(v));
+}
+
+/**
+ * Change Text in "View More" toggle button between "View More" and "View Less"
+ * @param {*} buttonElement
+ */
+function viewButton(buttonElement) {
+	if (buttonElement.target.innerText === "View More") buttonElement.target.innerText = "View Less";
+	else buttonElement.target.innerText = "View More";
 }
