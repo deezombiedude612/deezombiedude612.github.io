@@ -12631,6 +12631,12 @@ footer {
 footer #footer_banner {
   height: 10rem;
 }
+@media (max-width: 575.98px) {
+  footer #footer_banner {
+    height: unset;
+    max-width: 75%;
+  }
+}
 footer p {
   cursor: default;
 }

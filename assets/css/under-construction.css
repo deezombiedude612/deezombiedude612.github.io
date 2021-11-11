@@ -12631,6 +12631,12 @@ footer {
 footer #footer_banner {
   height: 10rem;
 }
+@media (max-width: 575.98px) {
+  footer #footer_banner {
+    height: unset;
+    max-width: 75%;
+  }
+}
 footer p {
   cursor: default;
 }
@@ -12856,7 +12862,7 @@ nav ul.navbar-nav li.dropdown ul.dropdown-menu-end {
 }
 
 .character-icon {
-  min-width: 450px;
+  min-width: 300px;
 }
 
 /*# sourceMappingURL=under-construction.css.map */
