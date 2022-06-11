@@ -27,3 +27,9 @@ function viewButton(buttonElement) {
 	if (buttonElement.target.innerText === "View More") buttonElement.target.innerText = "View Less";
 	else buttonElement.target.innerText = "View More";
 }
+
+// // Enables tooltips everywhere
+// const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+// const tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+// 	return new bootstrap.Tooltip(tooltipTriggerEl);
+// });

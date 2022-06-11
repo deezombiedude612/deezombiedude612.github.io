@@ -1,0 +1,11 @@
+{
+  "name": "github_io",
+  "version": "4.0.0",
+  "description": "deezombiedude612's GitHub Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oscillo Strix",
+  "license": "ISC"
+}

@@ -12,15 +12,21 @@ function common_footer($up_layers) {
 	$banner_img = "assets/images/footer-banner" . "." . $banner_img_ext;
 	$banner_img_x1 = "assets/images/footer-banner@1x" . "." . $banner_img_ext;
 
-	$layers = "";
-	for (; $up_layers > 0; $up_layers--) $layers = $layers . "../";
+	$front_append = "";
+	if ($_SERVER["HTTP_HOST"] == "localhost")
+		for (; $up_layers > 0; $up_layers--) $front_append = $front_append . "../";
+	else {
+		$front_append = $_SERVER["REQUEST_SCHEME"] == "https" ? "https://" : "";
+		$front_append .= $_SERVER["HTTP_HOST"];
+		$front_append .= "/";
+	}
 ?>
 <footer>
 	<picture>
-		<source srcset="<?= $layers . $banner_img_x1; ?> 1x, <?= $layers . $banner_img; ?> 2x,"
+		<source srcset="<?= $front_append . $banner_img_x1; ?> 1x, <?= $front_append . $banner_img; ?> 2x,"
 			type="image/<?= $banner_img_ext; ?>">
 
-		<img src="<?= $layers . $banner_img_x1; ?>" alt="Footer Banner" id="footer_banner">
+		<img src="<?= $front_append . $banner_img_x1; ?>" alt="Footer Banner" id="footer_banner">
 	</picture>
 	<p>
 		@<span id="year"></span> Henry Heng &#x1F989;<br>
@@ -51,8 +57,13 @@ function common_footer($up_layers) {
 			</a>
 		</li>
 		<li>
-			<a href="https://www.youtube.com/user/deezombiedude612/" target="_blank">
+			<a href="https://www.youtube.com/user/deezombiedude/" target="_blank">
 				<i class="fab fa-youtube fa-lg footer-fa"></i>
+			</a>
+		</li>
+		<li>
+			<a href="https://twitch.tv/deezombiedude/" target="_blank">
+				<i class="fab fa-twitch fa-lg footer-fa"></i>
 			</a>
 		</li>
 		<li>
